@@ -1,0 +1,239 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Tanglu KDE desktop
+Task-Extended-Description: Tanglu using KDE Plasma Desktop
+Task-Key: tanglu-kde
+Task-Seeds: desktop-common
+
+= Hardware and Architecture Support =
+
+== Architecture-independent ==
+
+Bluetooth:
+
+ * (bluedevil)
+ * (pulseaudio-module-bluetooth) # Bluetooth audio devices by default
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (plasma-widget-networkmanagement)
+ * (mobile-broadband-provider-info)
+
+= GUI infrastructure =
+
+Extra fonts (should be common, but not so for space reasons):
+
+ * (ttf-wqy-microhei)
+ * (fonts-nanum)
+ * (fonts-liberation)
+ * (ttf-oxygen-font-family)
+
+Input methods:
+
+ * (im-config)
+ * (ibus-qt4)  # ibus support
+ * (plasma-widget-kimpanel)
+
+= Desktop KDE Apps =
+
+We've chosen KDE Software as our desktop user interface of choice
+
+== kde-runtime ==
+
+ * khelpcenter4
+ * (phonon-backend-gstreamer)
+
+== kdebase ==
+
+ * kdepasswd
+ * (rekonq)
+ * konsole
+ * (plasma-widget-folderview)
+
+== kde-workspace ==
+
+ * kde-workspace
+ * kde-window-manager [amd64 i386 powerpc]
+ * kde-window-manager-gles [armhf]
+ * klipper
+ * ksysguard
+ * systemsettings
+ * (ktouchpadenabler)
+
+== kdeadmin ==
+
+# * (system-config-printer-kde)
+
+== kdegraphics ==
+
+ * (kamera)
+ * (gwenview)
+
+== kdemultimedia ==
+
+ * audiocd-kio
+ * kmix
+
+== kdenetwork ==
+
+ * kde-zeroconf
+ * (kde-telepathy) # To be default in 12.10
+ * (krdc)
+
+== kdeutils ==
+
+ * ark
+ * (kwalletmanager)
+ * (kcalc)
+
+== everything else KDE ==
+
+ * (userconfig)       # In place of kuser (which is on the dvd)
+ * (apper)
+ * (polkit-kde-1) # needed by muon but is an option compared to gtk polkit for gnome users
+ * (gstreamer0.10-qapt)
+ * (gtk2-engines-oxygen)
+ * (gtk3-engines-oxygen)
+ * (kdesudo) # simpler and more reliable than kdesu
+ * xdg-user-dirs
+ * (upower) # Recommends so people can keep hal if they want it
+ * (udisks) # Recommends so people can keep hal if they want it
+ * software-properties-kde
+ * (apport-kde)
+ * (xdg-utils)         # useful utilities
+ * (jockey-kde) # installer for drivers
+ * (plasma-widgets-addons)
+ * (oxygen-cursor-theme)
+ * (oxygen-icon-theme)
+ * (libqca2-plugin-ossl)
+ * (kde-config-gtk-style) #GTK setup
+ * (plasma-widget-message-indicator)
+ * (plasma-widget-facebook)  # more social from the start
+ * (apturl-kde)
+ * (pulseaudio)
+ * (partitionmanager)
+ * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
+ * (kscreen)
+ * (kio-mtp)
+
+Accessibility tools:
+
+ * (kaccessible)
+ * (kmag)
+ * (xcursor-themes)
+
+= Other =
+
+ * (cryptsetup) #needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+
+= On top =
+ * plasma-desktop # Plasma for desktops/laptops
+ * (k3b)        # kde CD burning
+ * plasma-netbook
+
+== kdebase ==
+
+ * dolphin
+ * lightdm-kde-greeter
+
+== kdepim ==
+
+ * (akregator)
+ * (kaddressbook)
+ * (kdepim-kresources)
+ * (kdepim-strigi-plugins)
+ * (kdepim-runtime)
+ * (kmail)
+ * (knotes)
+ * (kontact)
+ * (korganizer)
+ * (akonadi-facebook)
+
+== kdeadmin ==
+
+ * (ksystemlog)
+
+== kdegames ==
+
+ * (kpat)
+
+== kdegraphics ==
+
+ * (kdegraphics-strigi-analyzer)
+ * ksnapshot
+ * okular
+ * (okular-extra-backends)
+
+== kdemultimedia ==
+
+ * (dragonplayer)
+
+== kdenetwork ==
+
+ * (kppp)
+ * (kdenetwork-filesharing)
+
+== kdesdk ==
+
+ * (kate)
+
+== calligra ==
+
+ * (calligra)
+
+== everything else KDE ==
+
+ * (quassel)            # replacement for konversation for IRC
+ * (amarok)         # audio multimediaplayer
+ * (ktorrent)
+ * (cdrdao)
+ * (pinentry-qt4) # for SMIME e-mail support
+ * (gnupg-agent) # for SMIME e-mail support
+ * (gpgsm) # SMIME engine
+ * (kde-config-touchpad)
+ * (plasma-widget-menubar)
+ * (appmenu-gtk)
+ * (appmenu-gtk3)
+ * (kamoso)
+ * (skanlite)
+ * (kde-config-tablet)
+ * (print-manager)
+ * (colord-kde)
+ * (plasma-widget-homerun)
+
+Accessibility tools:
+
+ * (kmousetool)
+ * (brltty)
+
+= Other Desktop GUI Apps =
+
+ * (libreoffice-style-oxygen) [i386 amd64] # to avoid openoffice.org-style-human
+ * (libreoffice-kde) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-writer) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-calc) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-impress) [i386 amd64] # powerpc oversized, armel broken
+
+= Other =
+
+ * (usb-creator-kde) [i386 amd64]
+
+= Some games (because we can and so the catagory won't be empty)
+# * (kdiamond)
+# * (kmahjongg)
+# * (kmines)
+# * (kreversi)
+# * (ksudoku)
+# * (lskat)
+# * (kpat)
+
+= Some EDU stuff (same reason)
+# * (parley)
+# * (ktouch)
+# * (kanagram)
+
+= Other =
+ * tanglu-kde # the metapackage itself
