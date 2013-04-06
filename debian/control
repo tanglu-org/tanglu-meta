@@ -26,7 +26,7 @@ Package: tanglu-standard
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
-Description: The Tanglu standard system
+Description: Tanglu standard system
  This package depends on all of the packages in the Tanglu standard system.
  This set of packages provides a comfortable command-line Unix-like
  environment.
@@ -38,7 +38,7 @@ Package: tanglu-gnome
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
-Description: The Tanglu GNOME-3 desktop system
+Description: Tanglu GNOME-3 desktop system
  This package depends on all of the packages in the
  Tanglu GNOME-3 desktop system
  .
@@ -49,7 +49,7 @@ Package: tanglu-kde
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
-Description: The Tanglu KDE4 desktop system
+Description: Tanglu KDE4 desktop system
  This package depends on all of the packages in the
  Tanglu KDE4 desktop system
  .
