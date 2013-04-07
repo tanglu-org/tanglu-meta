@@ -86,9 +86,6 @@ Fonts:
  * ttf-dejavu-core
  * fonts-freefont-ttf
  * (fonts-kacst-one)
- * (fonts-takao-pgothic)
- * (fonts-khmeros-core)
- * (ttf-indic-fonts-core)
  * (ttf-punjabi-fonts)
  * (fonts-thai-tlwg)
  * (fonts-lao)
@@ -97,10 +94,19 @@ Fonts:
  * (fonts-sil-abyssinica)
  * (fonts-lklug-sinhala)
 
+= Desktop interoperability =
+We always ship these.
+
+ * (xdg-utils)		   # useful utilities
+
+ * pulseaudio
+ * (pulseaudio-module-x11)
+ * (pulseaudio-module-bluetooth)
+ * packagekit
+
 = Other =
 
  * anacron # generally appropriate for desktops
  * libxp6 # required for some third party apps. See #21953
  * (kerneloops-daemon) # watch for and allow reporting of kernel problems
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
- * libpam-xdg-support # cross desktop compatibility

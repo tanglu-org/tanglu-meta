@@ -13,10 +13,12 @@ file-roller
 fonts-freefont-ttf
 foomatic-db-compressed-ppds
 foomatic-filters
+gdm3
 gedit
 genisoimage
 ghostscript-x
 gnome-control-center
+gnome-documents
 gnome-font-viewer
 gnome-menus
 gnome-packagekit
@@ -28,6 +30,7 @@ gnome-shell
 gnome-sushi
 gnome-system-log
 gnome-system-monitor
+gnome-themes-standard
 gstreamer0.10-alsa
 gstreamer0.10-plugins-base-apps
 gstreamer0.10-pulseaudio
@@ -46,6 +49,7 @@ libxp6
 nautilus
 nautilus-sendto
 openprinting-ppds
+packagekit
 printer-driver-pnm2ppa
 pulseaudio
 rfkill
@@ -61,5 +65,4 @@ xdg-user-dirs-gtk
 xkb-data
 xorg
 yelp
-zenity
 zip

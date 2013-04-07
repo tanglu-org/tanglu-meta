@@ -24,17 +24,18 @@ Basic network services and Windows integration.
  * (network-manager-gnome) # see NetworkRoaming spec
  * (network-manager-pptp)
  * (network-manager-pptp-gnome)
- * (libproxy1-plugin-gsettings)
- * (libproxy1-plugin-networkmanager)
 
 = GUI infrastructure =
 
  * (xterm)                        # Provide a backup terminal and complete X env.
  * libnotify-bin		 # various scripts need notify-send (such as .bashrc's "alert")
+ * xdg-user-dirs
+ * xdg-user-dirs-gtk
 
 Extra fonts (should be common, but not so for space reasons):
 
  * (ttf-wqy-microhei)
+ * (ttf-linux-libertine)
  * (fonts-nanum)
  * (fonts-liberation)
 
@@ -52,61 +53,55 @@ Input methods:
 Rather than using the meta-packages they are deliberately expanded so
 that we can select things a bit better.
 
+Base:
+ * gdm3
+ * gnome-system-monitor
+ * gnome-power-manager
+ * gnome-control-center
+ * gucharmap
+ * nautilus
+ * nautilus-sendto
+ * ssh-askpass-gnome
+ * yelp
+ * gvfs-bin			# mostly used as xdg-open backend
+ * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
+ * (gnome-disk-utility)
+ * system-config-printer-gnome
+ * gnome-menus
+ * gnome-session
+
+User:
  * eog
  * file-roller
  * (empathy)
  * (telepathy-idle)        # basic IRC support for empathy
  * gnome-calculator
- * gdm
  * gedit
  * gnome-packagekit
+ * software-properties-gtk # default GUI sources.list editor / extra drivers
  * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
- * gnome-control-center
- * system-config-printer-gnome
- * gnome-menus
- * gnome-session
+ * gnome-documents
  * seahorse
  * (libpam-gnome-keyring)
- * gnome-system-monitor     # SebastienBacher
- * gnome-power-manager		# OliverGrawert finally ready for shipment
  * (gnome-terminal)
  * baobab
  * gnome-sushi
  * gnome-screenshot
  * gnome-system-log
  * gnome-font-viewer
- * gucharmap               # SebastienBacher
- * checkbox-qt
  * language-selector-gnome
  * (firefox)
  * (firefox-gnome-support)
- * nautilus                # SebastienBacher
- * nautilus-sendto
  * (nautilus-share)
  * (rhythmbox)
- * (rhythmbox-plugin-magnatune)
+ * (rhythmbox-plugins)
  * (brasero)		   # Oliver Grawert
- * ssh-askpass-gnome
- * software-properties-gtk # default GUI sources.list editor / extra drivers
  * (totem)
  * (totem-mozilla)
  * (vino) # vnc server
- * yelp
- * zenity
- * (xdg-utils)		   # useful utilities
- * xdg-user-dirs
- * xdg-user-dirs-gtk
- * pulseaudio
- * (pulseaudio-module-x11)
- * (pulseaudio-module-bluetooth)
- * gvfs-bin			# mostly used as xdg-open backend
- * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
- * (gnome-disk-utility)
- * (overlay-scrollbar)
 
 Games: We only ship a few by default.
  * (aisleriot) [!powerpc]
- * (gnome-mahjongg) [!powerpc]
  * (gnomine) [!powerpc]
  * (gnome-sudoku) [!powerpc]
 
@@ -116,6 +111,8 @@ These packages are included for size guidance until we have Tanglu-specific pack
 
  * gnome-session-canberra	# Needed to make login/logout sounds audible.
  * dmz-cursor-theme
+ * gnome-icon-theme-extra
+ * gnome-themes-standard
 
 The gstreamer0.10 packages we want to install until no gstreamer1.0 packages are on default media:
 
@@ -141,11 +138,10 @@ Accessibility tools:
  * at-spi2-core
  * libatk-adaptor
  * (libgail-common)
- * (qt-at-spi)
 
 = Other Desktop GUI Apps =
 
- * (libreoffice-style-human) [!powerpc !armhf]
+ * (libreoffice-style-tango) [!powerpc !armhf]
  * (libreoffice-gnome) [!powerpc !armhf]
  * (libreoffice-writer) [!powerpc !armhf]
  * (libreoffice-calc) [!powerpc !armhf]
@@ -159,7 +155,6 @@ Accessibility tools:
  * (gnome-screensaver) # recommends to allow for xscreensaver to be used
  * (remmina)
  * (shotwell)
- * (usb-creator-gtk) [i386 amd64]
  * (deja-dup)
  * xdiagnose
 
@@ -183,4 +178,3 @@ to compile a driver. -mdz
 = Other =
 
  * tanglu-gnome # metapackage for everything here
- * (libwmf0.2-7-gtk)

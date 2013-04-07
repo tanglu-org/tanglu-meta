@@ -51,6 +51,7 @@ libreoffice-math
 libreoffice-ogltrans
 libreoffice-pdfimport
 libreoffice-presentation-minimizer
+libreoffice-style-tango
 libreoffice-writer
 make
 mousetweaks
@@ -68,9 +69,9 @@ printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio-module-bluetooth
 pulseaudio-module-x11
-qt-at-spi
 remmina
 rhythmbox
+rhythmbox-plugins
 shotwell
 simple-scan
 speech-dispatcher
@@ -78,6 +79,7 @@ telepathy-idle
 totem
 totem-mozilla
 transmission-gtk
+ttf-linux-libertine
 ttf-punjabi-fonts
 ttf-wqy-microhei
 vino

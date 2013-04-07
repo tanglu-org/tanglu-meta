@@ -1,3 +1,33 @@
+tanglu-meta (0.2) aequorea; urgency=low
+
+  * Refreshed dependencies
+  * Added gdm3 to gnome
+  * Added libreoffice-style-tango to gnome-recommends
+  * Added console-setup to minimal
+  * Added kbd to minimal
+  * Added lsb-release to minimal
+  * Added sudo to minimal
+  * Added gnome-documents to gnome
+  * Added gnome-themes-standard to gnome
+  * Added kdemultimedia-kio-plugins to kde
+  * Added konversation to kde-recommends
+  * Added kuser to kde-recommends
+  * Added oxygencursors to kde-recommends
+  * Added plasma-widget-telepathy-chat to kde-recommends
+  * Added pulseaudio-module-x11 to kde-recommends
+  * Added rhythmbox-plugins to gnome-recommends
+  * Added ttf-linux-libertine to gnome-recommends, kde-recommends
+  * Removed fonts-liberation from kde-recommends
+  * Removed qt-at-spi from gnome-recommends
+  * Removed quassel from kde-recommends
+  * Removed xdg-user-dirs from kde
+  * Removed zenity from gnome
+  * Added packagekit to gnome, kde
+  * Added plymouth-themes-script to standard-recommends
+  * Removed packagekit from standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 07 Apr 2013 20:26:28 +0200
+
 tanglu-meta (0.1) aequorea; urgency=low
 
   * Initial release.

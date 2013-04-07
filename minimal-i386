@@ -1,6 +1,7 @@
 adduser
 apt
 apt-utils
+console-setup
 debconf
 debconf-i18n
 gnupg
@@ -9,6 +10,8 @@ initramfs-tools
 iproute
 iputils-ping
 isc-dhcp-client
+kbd
+lsb-release
 makedev
 mawk
 net-tools
@@ -17,6 +20,7 @@ netcat-openbsd
 passwd
 procps
 rsyslog
+sudo
 tanglu-archive-keyring
 tzdata
 udev

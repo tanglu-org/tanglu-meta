@@ -14,6 +14,7 @@ inputattach
 kde-window-manager
 kde-workspace
 kde-zeroconf
+kdemultimedia-kio-plugins
 kdepasswd
 khelpcenter4
 klipper
@@ -27,9 +28,11 @@ libxp6
 lightdm-kde-greeter
 okular
 openprinting-ppds
+packagekit
 plasma-desktop
 plasma-netbook
 printer-driver-pnm2ppa
+pulseaudio
 rfkill
 software-properties-kde
 systemsettings
@@ -37,7 +40,6 @@ ttf-dejavu-core
 unzip
 wireless-tools
 wpasupplicant
-xdg-user-dirs
 xkb-data
 xorg
 zip

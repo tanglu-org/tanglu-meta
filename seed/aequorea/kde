@@ -28,8 +28,8 @@ Extra fonts (should be common, but not so for space reasons):
 
  * (ttf-wqy-microhei)
  * (fonts-nanum)
- * (fonts-liberation)
  * (ttf-oxygen-font-family)
+ * (ttf-linux-libertine)
 
 Input methods:
 
@@ -74,7 +74,7 @@ We've chosen KDE Software as our desktop user interface of choice
 
 == kdemultimedia ==
 
- * audiocd-kio
+ * kdemultimedia-kio-plugins
  * kmix
 
 == kdenetwork ==
@@ -91,29 +91,24 @@ We've chosen KDE Software as our desktop user interface of choice
 
 == everything else KDE ==
 
- * (userconfig)       # In place of kuser (which is on the dvd)
+ * (kuser)
  * (apper)
- * (polkit-kde-1) # needed by muon but is an option compared to gtk polkit for gnome users
+ * (polkit-kde-1) # choose it over the GTK+ version
  * (gstreamer0.10-qapt)
  * (gtk2-engines-oxygen)
  * (gtk3-engines-oxygen)
  * (kdesudo) # simpler and more reliable than kdesu
- * xdg-user-dirs
  * (upower) # Recommends so people can keep hal if they want it
  * (udisks) # Recommends so people can keep hal if they want it
  * software-properties-kde
- * (apport-kde)
  * (xdg-utils)         # useful utilities
- * (jockey-kde) # installer for drivers
  * (plasma-widgets-addons)
- * (oxygen-cursor-theme)
+ * (oxygencursors)
  * (oxygen-icon-theme)
  * (libqca2-plugin-ossl)
- * (kde-config-gtk-style) #GTK setup
+ * (kde-config-gtk-style) # GTK setup
  * (plasma-widget-message-indicator)
- * (plasma-widget-facebook)  # more social from the start
- * (apturl-kde)
- * (pulseaudio)
+ * (plasma-widget-telepathy-chat)
  * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
  * (kscreen)
@@ -127,7 +122,7 @@ Accessibility tools:
 
 = Other =
 
- * (cryptsetup) #needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+ * (cryptsetup) # needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
 
 = On top =
  * plasma-desktop # Plasma for desktops/laptops
@@ -150,7 +145,6 @@ Accessibility tools:
  * (knotes)
  * (kontact)
  * (korganizer)
- * (akonadi-facebook)
 
 == kdeadmin ==
 
@@ -186,7 +180,7 @@ Accessibility tools:
 
 == everything else KDE ==
 
- * (quassel)            # replacement for konversation for IRC
+ * (konversation)
  * (amarok)         # audio multimediaplayer
  * (ktorrent)
  * (cdrdao)
@@ -195,14 +189,11 @@ Accessibility tools:
  * (gpgsm) # SMIME engine
  * (kde-config-touchpad)
  * (plasma-widget-menubar)
- * (appmenu-gtk)
- * (appmenu-gtk3)
  * (kamoso)
  * (skanlite)
  * (kde-config-tablet)
  * (print-manager)
  * (colord-kde)
- * (plasma-widget-homerun)
 
 Accessibility tools:
 
@@ -217,11 +208,8 @@ Accessibility tools:
  * (libreoffice-calc) [i386 amd64] #powerpc oversized, armel broken
  * (libreoffice-impress) [i386 amd64] # powerpc oversized, armel broken
 
-= Other =
+= Some games (because we can and so the catagory won't be empty) =
 
- * (usb-creator-kde) [i386 amd64]
-
-= Some games (because we can and so the catagory won't be empty)
 # * (kdiamond)
 # * (kmahjongg)
 # * (kmines)
@@ -230,7 +218,8 @@ Accessibility tools:
 # * (lskat)
 # * (kpat)
 
-= Some EDU stuff (same reason)
+= Some EDU stuff (same reason) =
+
 # * (parley)
 # * (ktouch)
 # * (kanagram)
