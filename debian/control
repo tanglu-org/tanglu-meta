@@ -3,11 +3,11 @@ Section: metapackages
 Priority: optional
 Maintainer: Tanglu Developers <tanglu-devel-discuss@lists.tanglu.org>
 Standards-Version: 3.9.4
-Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Build-Depends: debhelper (>= 8), germinate (>= 1.18)
 
 Package: tanglu-minimal
 Architecture: any
-Depends: ${misc:Depends}, ${germinate:Depends}
+Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
 Description: Minimal core of Tanglu
  This package depends on all of the packages in the Tanglu minimal system,
@@ -24,7 +24,7 @@ Description: Minimal core of Tanglu
 
 Package: tanglu-standard
 Architecture: any
-Depends: ${misc:Depends}, ${germinate:Depends}
+Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
 Description: Tanglu standard system
  This package depends on all of the packages in the Tanglu standard system.
@@ -36,7 +36,7 @@ Description: Tanglu standard system
 
 Package: tanglu-gnome
 Architecture: any
-Depends: ${misc:Depends}, ${germinate:Depends}
+Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
 Description: Tanglu GNOME-3 desktop system
  This package depends on all of the packages in the
@@ -47,7 +47,7 @@ Description: Tanglu GNOME-3 desktop system
 
 Package: tanglu-kde
 Architecture: any
-Depends: ${misc:Depends}, ${germinate:Depends}
+Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
 Description: Tanglu KDE4 desktop system
  This package depends on all of the packages in the
