@@ -101,9 +101,10 @@ User:
  * (vino) # vnc server
 
 Games: We only ship a few by default.
- * (aisleriot) [!powerpc]
- * (gnomine) [!powerpc]
- * (gnome-sudoku) [!powerpc]
+ * (aisleriot)
+ * (gnomine)
+ * (lightsoff)
+ * (gnect)
 
 Themes: we will ship only the very best looking themes. We won't ship everything that Debian ships,
 just a custom package that includes the themes we want.
@@ -160,6 +161,7 @@ Accessibility tools:
 
 Desktop Experience:
  * gnome-shell
+ * gnome-shell-extensions
 
 = Documentation =
 

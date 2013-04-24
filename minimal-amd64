@@ -21,6 +21,8 @@ passwd
 procps
 rsyslog
 sudo
+systemd
+systemd-sysv
 tanglu-archive-keyring
 tzdata
 udev

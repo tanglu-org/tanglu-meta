@@ -1,3 +1,17 @@
+tanglu-meta (0.3) aequorea; urgency=low
+
+  * Refreshed dependencies
+  * Added firefox to gnome-recommends
+  * Added firefox-gnome-support to gnome-recommends
+  * Added systemd to minimal
+  * Added systemd-sysv to minimal
+  * Added gnect to gnome-recommends
+  * Added gnome-shell-extensions to gnome
+  * Added lightsoff to gnome-recommends
+  * Removed gnome-sudoku from gnome-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Wed, 24 Apr 2013 12:31:54 +0200
+
 tanglu-meta (0.2) aequorea; urgency=low
 
   * Refreshed dependencies

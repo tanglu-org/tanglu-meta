@@ -13,6 +13,8 @@ cups-bsd
 cups-client
 deja-dup
 empathy
+firefox
+firefox-gnome-support
 fonts-kacst-one
 fonts-lao
 fonts-liberation
@@ -23,12 +25,12 @@ fonts-sil-padauk
 fonts-thai-tlwg
 fonts-tibetan-machine
 gcc
+gnect
 gnome-accessibility-themes
 gnome-bluetooth
 gnome-disk-utility
 gnome-orca
 gnome-screensaver
-gnome-sudoku
 gnome-terminal
 gnomine
 gvfs-fuse
@@ -53,6 +55,7 @@ libreoffice-pdfimport
 libreoffice-presentation-minimizer
 libreoffice-style-tango
 libreoffice-writer
+lightsoff
 make
 mousetweaks
 nautilus-share

@@ -12,7 +12,6 @@ Task-Seeds: desktop-common
 Bluetooth:
 
  * (bluedevil)
- * (pulseaudio-module-bluetooth) # Bluetooth audio devices by default
 
 = Network Services =
 
@@ -101,7 +100,6 @@ We've chosen KDE Software as our desktop user interface of choice
  * (upower) # Recommends so people can keep hal if they want it
  * (udisks) # Recommends so people can keep hal if they want it
  * software-properties-kde
- * (xdg-utils)         # useful utilities
  * (plasma-widgets-addons)
  * (oxygencursors)
  * (oxygen-icon-theme)
