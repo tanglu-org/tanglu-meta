@@ -17,6 +17,7 @@ gdm3
 gedit
 genisoimage
 ghostscript-x
+gnome-calculator
 gnome-control-center
 gnome-documents
 gnome-font-viewer
@@ -42,7 +43,6 @@ gucharmap
 gvfs-bin
 inputattach
 libatk-adaptor
-libgd2-xpm
 libnotify-bin
 libpam-ck-connector
 libsasl2-modules

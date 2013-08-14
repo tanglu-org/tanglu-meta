@@ -89,6 +89,7 @@ plasma-widget-message-indicator
 plasma-widget-networkmanagement
 plasma-widget-telepathy-chat
 plasma-widgets-addons
+plymouth-theme-tanglu-logo
 polkit-kde-1
 printer-driver-c2esp
 printer-driver-foo2zjs
@@ -103,7 +104,6 @@ python-qt4-dbus
 rekonq
 skanlite
 ttf-linux-libertine
-ttf-punjabi-fonts
 ttf-wqy-microhei
 udisks
 upower

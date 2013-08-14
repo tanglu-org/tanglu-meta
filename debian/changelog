@@ -1,3 +1,13 @@
+tanglu-meta (0.4) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-calculator to gnome
+  * Removed libgd2-xpm from gnome
+  * Removed ttf-punjabi-fonts from gnome-recommends, kde-recommends
+  * Added plymouth-theme-tanglu-logo to gnome-recommends, kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Wed, 14 Aug 2013 22:34:11 +0000
+
 tanglu-meta (0.3) aequorea; urgency=low
 
   * Refreshed dependencies
