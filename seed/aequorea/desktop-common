@@ -94,7 +94,11 @@ Fonts:
  * (fonts-sil-abyssinica)
  * (fonts-lklug-sinhala)
 
+Artwork:
+ * (plymouth-theme-tanglu-logo)
+
 = Desktop interoperability =
+
 We always ship these.
 
  * (xdg-utils)		   # useful utilities
@@ -110,3 +114,7 @@ We always ship these.
  * libxp6 # required for some third party apps. See #21953
  * (kerneloops-daemon) # watch for and allow reporting of kernel problems
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
+
+= Meta =
+
+ * tanglu-standard # the standard Tanglu system

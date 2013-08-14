@@ -176,7 +176,3 @@ to compile a driver. -mdz
 
  * (gcc)
  * (make)
-
-= Other =
-
- * tanglu-gnome # metapackage for everything here
