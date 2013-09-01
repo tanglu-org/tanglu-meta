@@ -9,8 +9,8 @@ bluez
 bluez-alsa
 bluez-cups
 brltty
-calligra
 cdrdao
+colord-kde
 cryptsetup
 cups
 cups-bsd
@@ -51,6 +51,7 @@ kdepim-runtime
 kdepim-strigi-plugins
 kdesudo
 kerneloops-daemon
+kio-mtp
 kmag
 kmail
 kmousetool
@@ -91,6 +92,7 @@ plasma-widget-telepathy-chat
 plasma-widgets-addons
 plymouth-theme-tanglu-logo
 polkit-kde-1
+print-manager
 printer-driver-c2esp
 printer-driver-foo2zjs
 printer-driver-min12xxw
@@ -103,6 +105,8 @@ pulseaudio-module-x11
 python-qt4-dbus
 rekonq
 skanlite
+tanglu-kde-settings-active
+tanglu-kde-settings-netbook
 ttf-linux-libertine
 ttf-wqy-microhei
 udisks

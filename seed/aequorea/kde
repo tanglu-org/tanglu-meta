@@ -172,10 +172,6 @@ Accessibility tools:
 
  * (kate)
 
-== calligra ==
-
- * (calligra)
-
 == everything else KDE ==
 
  * (konversation)
@@ -197,6 +193,11 @@ Accessibility tools:
 
  * (kmousetool)
  * (brltty)
+
+Settings:
+ * tanglu-kde-settings-desktop
+ * (tanglu-kde-settings-active)
+ * (tanglu-kde-settings-netbook)
 
 = Other Desktop GUI Apps =
 

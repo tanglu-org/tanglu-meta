@@ -1,3 +1,16 @@
+tanglu-meta (0.5) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added colord-kde to kde-recommends
+  * Added kio-mtp to kde-recommends
+  * Added print-manager to kde-recommends
+  * Added tanglu-kde-settings-active to kde-recommends
+  * Added tanglu-kde-settings-desktop to kde
+  * Added tanglu-kde-settings-netbook to kde-recommends
+  * Removed calligra from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 31 Aug 2013 22:04:40 -0700
+
 tanglu-meta (0.4) staging; urgency=low
 
   * Refreshed dependencies

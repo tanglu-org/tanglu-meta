@@ -81,6 +81,13 @@ Packages used for X preconfiguration are just Recommends; removing them after in
  * !linux-image-*                # xorg transitively depends on this, but this would pull in grub-pc; we handle that separately
  * xkb-data                      # XKB data now lives here
 
+ * (xdg-utils)		   # useful utilities
+
+ * pulseaudio
+ * (pulseaudio-module-x11)
+ * (pulseaudio-module-bluetooth)
+ * packagekit
+
 Fonts:
 
  * ttf-dejavu-core
@@ -96,17 +103,6 @@ Fonts:
 
 Artwork:
  * (plymouth-theme-tanglu-logo)
-
-= Desktop interoperability =
-
-We always ship these.
-
- * (xdg-utils)		   # useful utilities
-
- * pulseaudio
- * (pulseaudio-module-x11)
- * (pulseaudio-module-bluetooth)
- * packagekit
 
 = Other =
 
