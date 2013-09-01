@@ -22,6 +22,7 @@ kmix
 konsole
 ksnapshot
 ksysguard
+libnotify-bin
 libpam-ck-connector
 libsasl2-modules
 libxp6
@@ -41,6 +42,7 @@ ttf-dejavu-core
 unzip
 wireless-tools
 wpasupplicant
+xdg-user-dirs
 xkb-data
 xorg
 zip

@@ -81,7 +81,9 @@ Packages used for X preconfiguration are just Recommends; removing them after in
  * !linux-image-*                # xorg transitively depends on this, but this would pull in grub-pc; we handle that separately
  * xkb-data                      # XKB data now lives here
 
- * (xdg-utils)		   # useful utilities
+ * (xdg-utils)                   # useful utilities
+ * xdg-user-dirs
+ * libnotify-bin                 # various scripts need notify-send (such as .bashrc's "alert")
 
  * pulseaudio
  * (pulseaudio-module-x11)
@@ -93,7 +95,6 @@ Fonts:
  * ttf-dejavu-core
  * fonts-freefont-ttf
  * (fonts-kacst-one)
- * (ttf-punjabi-fonts)
  * (fonts-thai-tlwg)
  * (fonts-lao)
  * (fonts-sil-padauk)

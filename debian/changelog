@@ -1,4 +1,4 @@
-tanglu-meta (0.5) staging; urgency=low
+tanglu-meta (0.5.1) staging; urgency=low
 
   * Refreshed dependencies
   * Added colord-kde to kde-recommends
@@ -8,6 +8,9 @@ tanglu-meta (0.5) staging; urgency=low
   * Added tanglu-kde-settings-desktop to kde
   * Added tanglu-kde-settings-netbook to kde-recommends
   * Removed calligra from kde-recommends
+  * Added libnotify-bin to kde
+  * Added xdg-user-dirs to kde
+  * Added grub-theme-tanglu to standard-recommends
 
  -- Matthias Klumpp <mak@debian.org>  Sat, 31 Aug 2013 22:04:40 -0700
 

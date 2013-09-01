@@ -1,6 +1,7 @@
 apparmor
 bash-completion
 command-not-found
+grub-theme-tanglu
 iputils-tracepath
 irqbalance
 manpages

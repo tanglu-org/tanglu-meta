@@ -75,6 +75,7 @@ These are used for debugging problems or examining the system.
  * (apparmor) # load AppArmor policies
  * (plymouth) # splash screen, and boot-time questions
  * (plymouth-themes-script)
+ * (grub-theme-tanglu)
 
 == Network ==
 
