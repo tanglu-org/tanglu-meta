@@ -64,6 +64,7 @@ network-manager-pptp
 network-manager-pptp-gnome
 pcmciautils
 plymouth-theme-tanglu-logo
+policykit-desktop-privileges
 printer-driver-c2esp
 printer-driver-foo2zjs
 printer-driver-min12xxw
@@ -79,6 +80,7 @@ rhythmbox-plugins
 shotwell
 simple-scan
 speech-dispatcher
+tanglu-theme-gnome
 telepathy-idle
 totem
 totem-mozilla

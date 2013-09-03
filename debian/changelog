@@ -1,4 +1,16 @@
-tanglu-meta (0.5.1) staging; urgency=low
+tanglu-meta (0.6) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added kscreen to kde-recommends
+  * Added policykit-desktop-privileges to gnome-recommends, kde-
+    recommends
+  * Added tanglu-theme-gnome to gnome-recommends
+  * Added tanglu-theme-kde to kde-recommends
+  * Added ttf-oxygen-font-family to kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 02 Sep 2013 22:45:56 -0700
+
+tanglu-meta (0.5) staging; urgency=low
 
   * Refreshed dependencies
   * Added colord-kde to kde-recommends

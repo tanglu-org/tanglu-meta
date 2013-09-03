@@ -62,6 +62,7 @@ korganizer
 kpat
 kppp
 krdc
+kscreen
 ksystemlog
 ktorrent
 ktouchpadenabler
@@ -91,6 +92,7 @@ plasma-widget-networkmanagement
 plasma-widget-telepathy-chat
 plasma-widgets-addons
 plymouth-theme-tanglu-logo
+policykit-desktop-privileges
 polkit-kde-1
 print-manager
 printer-driver-c2esp
@@ -107,7 +109,9 @@ rekonq
 skanlite
 tanglu-kde-settings-active
 tanglu-kde-settings-netbook
+tanglu-theme-kde
 ttf-linux-libertine
+ttf-oxygen-font-family
 ttf-wqy-microhei
 udisks
 upower
