@@ -9,8 +9,6 @@ Task-Seeds: desktop-common
 
 == Architecture-independent ==
 
- * libgd2-xpm
-
 Bluetooth:
 
  * (gnome-bluetooth) # desktop bluetooth support
@@ -104,14 +102,13 @@ Games: We only ship a few by default.
  * (lightsoff)
  * (gnect)
 
-Themes: we will ship only the very best looking themes. We won't ship everything that Debian ships,
-just a custom package that includes the themes we want.
+Themes: we will ship only the very best looking themes ;-)
 These packages are included for size guidance until we have Tanglu-specific packages.
 
  * gnome-session-canberra	# Needed to make login/logout sounds audible.
  * dmz-cursor-theme
- * gnome-icon-theme-extra
  * gnome-themes-standard
+ * (tanglu-theme-gnome)
 
 The gstreamer0.10 packages we want to install until no gstreamer1.0 packages are on default media:
 
