@@ -23,7 +23,7 @@ konsole
 ksnapshot
 ksysguard
 libnotify-bin
-libpam-ck-connector
+libpam-systemd
 libsasl2-modules
 libxp6
 lightdm-kde-greeter

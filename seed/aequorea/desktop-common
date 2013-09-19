@@ -33,7 +33,7 @@ These tools are very commonly used by people who drop into a console shell to do
  * genisoimage
  * zip
  * unzip                # also used for .zip support in file-roller
- * libpam-ck-connector  # get ConsoleKit sessions for VTs
+ * libpam-systemd
 
 = Network Services =
 

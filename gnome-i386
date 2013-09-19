@@ -44,7 +44,7 @@ gvfs-bin
 inputattach
 libatk-adaptor
 libnotify-bin
-libpam-ck-connector
+libpam-systemd
 libsasl2-modules
 libxp6
 nautilus
