@@ -50,6 +50,7 @@ We've chosen KDE Software as our desktop user interface of choice
  * kdepasswd
  * (rekonq)
  * konsole
+ * kde-baseapps-bin # needed to prefer it over Zenity and prevent pulling GNOME deps
  * (plasma-widget-folderview)
 
 == kde-workspace ==
