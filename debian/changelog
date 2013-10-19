@@ -1,3 +1,17 @@
+tanglu-meta (0.8) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-linuxlibertine to gnome-recommends, kde-recommends
+  * Added kde-baseapps-bin to kde
+  * Added kdm to kde
+  * Removed bluez-alsa from gnome-recommends, kde-recommends
+  * Removed bluez-gstreamer from gnome-recommends
+  * Removed lightdm-kde-greeter from kde
+  * Removed rekonq from kde-recommends
+  * Removed ttf-linux-libertine from gnome-recommends, kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 19 Oct 2013 12:36:14 +0200
+
 tanglu-meta (0.7) staging; urgency=low
 
   * Refreshed dependencies

@@ -11,11 +11,13 @@ foomatic-filters
 genisoimage
 ghostscript-x
 inputattach
+kde-baseapps-bin
 kde-window-manager
 kde-workspace
 kde-zeroconf
 kdemultimedia-kio-plugins
 kdepasswd
+kdm
 khelpcenter4
 klipper
 kmix
@@ -26,7 +28,6 @@ libnotify-bin
 libpam-systemd
 libsasl2-modules
 libxp6
-lightdm-kde-greeter
 okular
 openprinting-ppds
 packagekit

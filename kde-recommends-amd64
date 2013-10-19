@@ -6,7 +6,6 @@ avahi-autoipd
 avahi-daemon
 bluedevil
 bluez
-bluez-alsa
 bluez-cups
 brltty
 cdrdao
@@ -18,6 +17,7 @@ cups-client
 dragonplayer
 fonts-kacst-one
 fonts-lao
+fonts-linuxlibertine
 fonts-lklug-sinhala
 fonts-nanum
 fonts-sil-abyssinica
@@ -105,12 +105,10 @@ printer-driver-splix
 pulseaudio-module-bluetooth
 pulseaudio-module-x11
 python-qt4-dbus
-rekonq
 skanlite
 tanglu-kde-settings-active
 tanglu-kde-settings-netbook
 tanglu-theme-kde
-ttf-linux-libertine
 ttf-oxygen-font-family
 ttf-wqy-microhei
 udisks

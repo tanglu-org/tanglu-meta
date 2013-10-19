@@ -3,9 +3,7 @@ aisleriot
 avahi-autoipd
 avahi-daemon
 bluez
-bluez-alsa
 bluez-cups
-bluez-gstreamer
 brasero
 brltty
 cups
@@ -18,6 +16,7 @@ firefox-gnome-support
 fonts-kacst-one
 fonts-lao
 fonts-liberation
+fonts-linuxlibertine
 fonts-lklug-sinhala
 fonts-nanum
 fonts-sil-abyssinica
@@ -85,7 +84,6 @@ telepathy-idle
 totem
 totem-mozilla
 transmission-gtk
-ttf-linux-libertine
 ttf-wqy-microhei
 vino
 xcursor-themes
