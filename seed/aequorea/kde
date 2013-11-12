@@ -29,6 +29,7 @@ Extra fonts (should be common, but not so for space reasons):
  * (fonts-nanum)
  * (ttf-oxygen-font-family)
  * (ttf-linux-libertine)
+ * (fonts-cantarell)
 
 Input methods:
 
@@ -126,7 +127,6 @@ Accessibility tools:
 = On top =
  * plasma-desktop # Plasma for desktops/laptops
  * (k3b)        # kde CD burning
- * plasma-netbook
 
 == kdebase ==
 

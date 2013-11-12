@@ -32,6 +32,7 @@ Extra fonts (should be common, but not so for space reasons):
 
  * (ttf-wqy-microhei)
  * (ttf-linux-libertine)
+ * (fonts-cantarell)
  * (fonts-nanum)
  * (fonts-liberation)
 
