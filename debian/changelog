@@ -1,3 +1,13 @@
+tanglu-meta (0.8.2) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-cantarell to gnome-recommends, kde-recommends
+  * Added plymouth-themes to standard-recommends
+  * Removed plasma-netbook from kde
+  * Removed plymouth-themes-script from standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Tue, 12 Nov 2013 14:48:42 +0100
+
 tanglu-meta (0.8.1) staging; urgency=low
 
   * Refreshed dependencies
