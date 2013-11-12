@@ -1,3 +1,10 @@
+tanglu-meta (0.8.1) staging; urgency=low
+
+  * Refreshed dependencies
+  * Removed kbd from minimal
+
+ -- Matthias Klumpp <mak@debian.org>  Tue, 12 Nov 2013 10:38:08 +0100
+
 tanglu-meta (0.8) staging; urgency=low
 
   * Refreshed dependencies

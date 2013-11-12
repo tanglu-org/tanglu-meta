@@ -10,7 +10,6 @@ initramfs-tools
 iproute
 iputils-ping
 isc-dhcp-client
-kbd
 lsb-release
 makedev
 mawk
