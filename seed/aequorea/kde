@@ -29,7 +29,6 @@ Extra fonts (should be common, but not so for space reasons):
  * (fonts-nanum)
  * (ttf-oxygen-font-family)
  * (ttf-linux-libertine)
- * (fonts-cantarell)
 
 Input methods:
 
@@ -81,7 +80,7 @@ We've chosen KDE Software as our desktop user interface of choice
 == kdenetwork ==
 
  * kde-zeroconf
- * (kde-telepathy) # To be default in 12.10
+ * (kde-telepathy)
  * (krdc)
 
 == kdeutils ==
@@ -93,14 +92,13 @@ We've chosen KDE Software as our desktop user interface of choice
 == everything else KDE ==
 
  * (kuser)
- * (apper)
+ * (apper) # distro-agnostic package manager
  * (polkit-kde-1) # choose it over the GTK+ version
- * (gstreamer0.10-qapt)
  * (gtk2-engines-oxygen)
  * (gtk3-engines-oxygen)
  * (kdesudo) # simpler and more reliable than kdesu
- * (upower) # Recommends so people can keep hal if they want it
- * (udisks) # Recommends so people can keep hal if they want it
+ * upower
+ * udisks
  * software-properties-kde
  * (plasma-widgets-addons)
  * (oxygencursors)
@@ -126,7 +124,7 @@ Accessibility tools:
 
 = On top =
  * plasma-desktop # Plasma for desktops/laptops
- * (k3b)        # kde CD burning
+ * plasma-netbook
 
 == kdebase ==
 
@@ -148,10 +146,6 @@ Accessibility tools:
 == kdeadmin ==
 
  * (ksystemlog)
-
-== kdegames ==
-
- * (kpat)
 
 == kdegraphics ==
 
@@ -177,7 +171,6 @@ Accessibility tools:
 
  * (konversation)
  * (amarok)         # audio multimediaplayer
- * (ktorrent)
  * (cdrdao)
  * (pinentry-qt4) # for SMIME e-mail support
  * (gnupg-agent) # for SMIME e-mail support
@@ -203,23 +196,23 @@ Settings:
 
 = Other Desktop GUI Apps =
 
- * (libreoffice-style-oxygen) [i386 amd64] # to avoid openoffice.org-style-human
+ * (libreoffice-style-oxygen) [i386 amd64]
  * (libreoffice-kde) [i386 amd64] #powerpc oversized, armel broken
  * (libreoffice-writer) [i386 amd64] #powerpc oversized, armel broken
  * (libreoffice-calc) [i386 amd64] #powerpc oversized, armel broken
  * (libreoffice-impress) [i386 amd64] # powerpc oversized, armel broken
 
-= Some games (because we can and so the catagory won't be empty) =
+= Some games (kdegames) =
 
-# * (kdiamond)
+# * (kpat)
+  * (kdiamond)
 # * (kmahjongg)
 # * (kmines)
 # * (kreversi)
 # * (ksudoku)
 # * (lskat)
-# * (kpat)
 
-= Some EDU stuff (same reason) =
+= Some EDU stuff (kdeedu) =
 
 # * (parley)
 # * (ktouch)
