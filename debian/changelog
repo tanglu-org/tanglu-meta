@@ -1,3 +1,27 @@
+tanglu-meta (0.8.3) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added bluez-alsa to gnome-recommends, kde-recommends
+  * Added bluez-gstreamer to gnome-recommends
+  * Added plasma-netbook to kde
+  * Removed brasero from gnome-recommends
+  * Removed fonts-cantarell from kde-recommends
+  * Removed fonts-liberation from gnome-recommends
+  * Removed gstreamer0.10-qapt from kde-recommends
+  * Removed k3b from kde-recommends
+  * Removed kdepim-strigi-plugins from kde-recommends
+  * Removed kerneloops-daemon from gnome-recommends, kde-recommends
+  * Removed kpat from kde-recommends
+  * Removed ktorrent from kde-recommends
+  * Removed plasma-widget-telepathy-chat from kde-recommends
+  * Removed transmission-gtk from gnome-recommends
+  * Moved udisks to kde
+  * Moved upower to kde
+  * Added firefox to kde-recommends
+  * Added kde-telepathy-text-ui to kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 16 Dec 2013 15:00:08 +0100
+
 tanglu-meta (0.8.2) staging; urgency=low
 
   * Refreshed dependencies

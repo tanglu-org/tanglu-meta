@@ -6,6 +6,7 @@ avahi-autoipd
 avahi-daemon
 bluedevil
 bluez
+bluez-alsa
 bluez-cups
 brltty
 cdrdao
@@ -15,7 +16,7 @@ cups
 cups-bsd
 cups-client
 dragonplayer
-fonts-cantarell
+firefox
 fonts-kacst-one
 fonts-lao
 fonts-linuxlibertine
@@ -27,14 +28,12 @@ fonts-thai-tlwg
 fonts-tibetan-machine
 gnupg-agent
 gpgsm
-gstreamer0.10-qapt
 gtk2-engines-oxygen
 gtk3-engines-oxygen
 gwenview
 hplip
 ibus-qt4
 im-config
-k3b
 kaccessible
 kaddressbook
 kamera
@@ -45,13 +44,12 @@ kde-config-gtk-style
 kde-config-tablet
 kde-config-touchpad
 kde-telepathy
+kde-telepathy-text-ui
 kdegraphics-strigi-analyzer
 kdenetwork-filesharing
 kdepim-kresources
 kdepim-runtime
-kdepim-strigi-plugins
 kdesudo
-kerneloops-daemon
 kio-mtp
 kmag
 kmail
@@ -60,12 +58,10 @@ knotes
 kontact
 konversation
 korganizer
-kpat
 kppp
 krdc
 kscreen
 ksystemlog
-ktorrent
 ktouchpadenabler
 kuser
 kwalletmanager
@@ -90,7 +86,6 @@ plasma-widget-kimpanel
 plasma-widget-menubar
 plasma-widget-message-indicator
 plasma-widget-networkmanagement
-plasma-widget-telepathy-chat
 plasma-widgets-addons
 plymouth-theme-tanglu-logo
 policykit-desktop-privileges
@@ -112,7 +107,5 @@ tanglu-kde-settings-netbook
 tanglu-theme-kde
 ttf-oxygen-font-family
 ttf-wqy-microhei
-udisks
-upower
 xcursor-themes
 xdg-utils

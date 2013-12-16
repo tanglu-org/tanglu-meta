@@ -32,6 +32,7 @@ okular
 openprinting-ppds
 packagekit
 plasma-desktop
+plasma-netbook
 printer-driver-pnm2ppa
 pulseaudio
 rfkill
@@ -39,7 +40,9 @@ software-properties-kde
 systemsettings
 tanglu-kde-settings-desktop
 ttf-dejavu-core
+udisks
 unzip
+upower
 wireless-tools
 wpasupplicant
 xdg-user-dirs
