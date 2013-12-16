@@ -48,7 +48,6 @@ We've chosen KDE Software as our desktop user interface of choice
 == kdebase ==
 
  * kdepasswd
- * (rekonq)
  * konsole
  * kde-baseapps-bin # needed to prefer it over Zenity and prevent pulling GNOME deps
  * (plasma-widget-folderview)
@@ -196,6 +195,7 @@ Settings:
 
 = Other Desktop GUI Apps =
 
+ * (firefox) # we use Firefox with KDE patches as default
  * (libreoffice-style-oxygen) [i386 amd64]
  * (libreoffice-kde) [i386 amd64] #powerpc oversized, armel broken
  * (libreoffice-writer) [i386 amd64] #powerpc oversized, armel broken
