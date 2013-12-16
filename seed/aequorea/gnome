@@ -34,7 +34,6 @@ Extra fonts (should be common, but not so for space reasons):
  * (ttf-linux-libertine)
  * (fonts-cantarell)
  * (fonts-nanum)
- * (fonts-liberation)
 
 Input methods:
 
@@ -76,7 +75,6 @@ User:
  * gedit
  * gnome-packagekit
  * software-properties-gtk # default GUI sources.list editor / extra drivers
- * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
  * gnome-documents
  * seahorse
  * (libpam-gnome-keyring)
@@ -92,7 +90,6 @@ User:
  * (nautilus-share)
  * (rhythmbox)
  * (rhythmbox-plugins)
- * (brasero)		   # Oliver Grawert
  * (totem)
  * (totem-mozilla)
  * (vino) # vnc server
