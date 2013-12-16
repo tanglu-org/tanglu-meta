@@ -105,7 +105,7 @@ We've chosen KDE Software as our desktop user interface of choice
  * (libqca2-plugin-ossl)
  * (kde-config-gtk-style) # GTK setup
  * (plasma-widget-message-indicator)
- * (plasma-widget-telepathy-chat)
+ * (kde-telepathy-text-ui)
  * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
  * (kscreen)
@@ -135,7 +135,6 @@ Accessibility tools:
  * (akregator)
  * (kaddressbook)
  * (kdepim-kresources)
- * (kdepim-strigi-plugins)
  * (kdepim-runtime)
  * (kmail)
  * (knotes)
