@@ -60,9 +60,9 @@ A base system should be a good platform for diagnostics about the hardware and n
 
 These are used for debugging problems or examining the system.
 
- * memtest86+
+ * (memtest86+)
+ * (dmidecode)
  * strace
- * dmidecode
  * lshw
  * lsof
  * ltrace

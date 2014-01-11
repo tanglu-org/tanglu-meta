@@ -9,7 +9,7 @@ particular flavour of desktop environment (e.g. GNOME, KDE, or XFCE).
  * alsa-base # needed for proper hardware detection (hotplug/blacklist.d, modprobe.d)
  * alsa-utils           # basic audio support and mixer level handling
  * (pcmciautils)        # PCMCIA support for >= 2.6.13-rc1 kernels
- * inputattach          # needed for serial mice
+ * (inputattach)        # needed for serial mice
 
 Power management:
 
@@ -30,10 +30,10 @@ Bluetooth:
 These tools are very commonly used by people who drop into a console shell to do some work.
 
  * bc
- * genisoimage
  * zip
  * unzip                # also used for .zip support in file-roller
  * libpam-systemd
+ * (genisoimage)
 
 = Network Services =
 
@@ -41,7 +41,6 @@ Basic network services and Windows integration.
 
  * wireless-tools
  * rfkill              # No longer using the copy from wireless-tools (LP: #715309)
- * wpasupplicant  # ScottJamesRemnant
  * (libnss-mdns)       # IPv4 link-local DNS support
  * ca-certificates     # common SSL certificates
 
@@ -60,9 +59,9 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * foomatic-db-compressed-ppds  # the foomatic printer driver database
  * foomatic-filters             # converter from postscript to printer-specific formats
  * openprinting-ppds            # Most common drivers we want in desktop; less common are in o-p-extra
- * printer-driver-pnm2ppa       # several ppds require this
  * ghostscript-x
  * (hplip)     			# support for HP all-in-one printers
+ * (printer-driver-pnm2ppa)     # several ppds require this
  * (printer-driver-min12xxw)	# support for KonicaMinolta PagePro 1200W, 1300W printers
  * (printer-driver-foo2zjs)	# support for printing to ZjStream-based printers
  * (printer-driver-splix)	# support for Samsung lasers
