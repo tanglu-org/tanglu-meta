@@ -36,7 +36,6 @@ on a modern Unix-like system.
  * module-init-tools       # required for kernel 2.6
  * netbase
  * python3                 # explicitly seeded, despite lsb-release also pulling it it
- * rsyslog
  * sudo                    # LaMontJones
  * tanglu-archive-keyring  # for authenticated package downloads
  * udev
