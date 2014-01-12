@@ -56,7 +56,6 @@ Base:
  * gnome-control-center
  * gucharmap
  * nautilus
- * nautilus-sendto
  * ssh-askpass-gnome
  * yelp
  * gvfs-bin			# mostly used as xdg-open backend
@@ -65,6 +64,7 @@ Base:
  * system-config-printer-gnome
  * gnome-menus
  * gnome-session
+ * (gnome-session-flashback)
 
 User:
  * eog
