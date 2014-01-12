@@ -15,7 +15,6 @@ foomatic-db-compressed-ppds
 foomatic-filters
 gdm3
 gedit
-genisoimage
 ghostscript-x
 gnome-calculator
 gnome-control-center
@@ -41,17 +40,14 @@ gstreamer1.0-plugins-base-apps
 gstreamer1.0-pulseaudio
 gucharmap
 gvfs-bin
-inputattach
 libatk-adaptor
 libnotify-bin
 libpam-systemd
 libsasl2-modules
 libxp6
 nautilus
-nautilus-sendto
 openprinting-ppds
 packagekit
-printer-driver-pnm2ppa
 pulseaudio
 rfkill
 seahorse
@@ -60,7 +56,6 @@ ssh-askpass-gnome
 ttf-dejavu-core
 unzip
 wireless-tools
-wpasupplicant
 xdg-user-dirs
 xdg-user-dirs-gtk
 xkb-data

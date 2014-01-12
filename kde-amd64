@@ -8,9 +8,7 @@ dolphin
 fonts-freefont-ttf
 foomatic-db-compressed-ppds
 foomatic-filters
-genisoimage
 ghostscript-x
-inputattach
 kde-baseapps-bin
 kde-window-manager
 kde-workspace
@@ -33,7 +31,6 @@ openprinting-ppds
 packagekit
 plasma-desktop
 plasma-netbook
-printer-driver-pnm2ppa
 pulseaudio
 rfkill
 software-properties-kde
@@ -44,7 +41,6 @@ udisks
 unzip
 upower
 wireless-tools
-wpasupplicant
 xdg-user-dirs
 xkb-data
 xorg

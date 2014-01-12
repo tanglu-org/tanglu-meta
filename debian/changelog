@@ -1,3 +1,19 @@
+tanglu-meta (0.8.4) staging; urgency=low
+
+  * Refreshed dependencies
+  * Removed firefox-gnome-support from gnome-recommends
+  * Removed nautilus-sendto from gnome
+  * Removed rsyslog from minimal
+  * Removed wpasupplicant from gnome, kde
+  * Moved dmidecode to standard-recommends
+  * Moved genisoimage to gnome-recommends, kde-recommends
+  * Moved inputattach to gnome-recommends, kde-recommends
+  * Moved memtest86+ to standard-recommends
+  * Moved printer-driver-pnm2ppa to gnome-recommends, kde-recommends
+  * Suggest rsyslog in tanglu-standard
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 12 Jan 2014 18:36:24 +0100
+
 tanglu-meta (0.8.3) staging; urgency=low
 
   * Refreshed dependencies

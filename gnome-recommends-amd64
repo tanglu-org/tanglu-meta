@@ -13,7 +13,6 @@ cups-client
 deja-dup
 empathy
 firefox
-firefox-gnome-support
 fonts-cantarell
 fonts-kacst-one
 fonts-lao
@@ -25,6 +24,7 @@ fonts-sil-padauk
 fonts-thai-tlwg
 fonts-tibetan-machine
 gcc
+genisoimage
 gnect
 gnome-accessibility-themes
 gnome-bluetooth
@@ -41,6 +41,7 @@ ibus-pinyin
 ibus-pinyin-db-android
 ibus-table
 im-config
+inputattach
 laptop-detect
 libgail-common
 libnss-mdns
@@ -67,6 +68,7 @@ policykit-desktop-privileges
 printer-driver-c2esp
 printer-driver-foo2zjs
 printer-driver-min12xxw
+printer-driver-pnm2ppa
 printer-driver-ptouch
 printer-driver-pxljr
 printer-driver-sag-gdi

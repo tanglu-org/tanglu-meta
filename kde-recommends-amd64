@@ -26,6 +26,7 @@ fonts-sil-abyssinica
 fonts-sil-padauk
 fonts-thai-tlwg
 fonts-tibetan-machine
+genisoimage
 gnupg-agent
 gpgsm
 gtk2-engines-oxygen
@@ -34,6 +35,7 @@ gwenview
 hplip
 ibus-qt4
 im-config
+inputattach
 kaccessible
 kaddressbook
 kamera
@@ -94,6 +96,7 @@ print-manager
 printer-driver-c2esp
 printer-driver-foo2zjs
 printer-driver-min12xxw
+printer-driver-pnm2ppa
 printer-driver-ptouch
 printer-driver-pxljr
 printer-driver-sag-gdi

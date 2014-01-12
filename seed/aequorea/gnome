@@ -64,7 +64,6 @@ Base:
  * system-config-printer-gnome
  * gnome-menus
  * gnome-session
- * (gnome-session-flashback)
 
 User:
  * eog

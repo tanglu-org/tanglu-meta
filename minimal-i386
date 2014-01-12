@@ -18,7 +18,6 @@ netbase
 netcat-openbsd
 passwd
 procps
-rsyslog
 sudo
 systemd
 systemd-sysv
