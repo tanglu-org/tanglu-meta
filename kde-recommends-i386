@@ -52,9 +52,11 @@ kdenetwork-filesharing
 kdepim-kresources
 kdepim-runtime
 kdesudo
+khelpcenter4
 kio-mtp
 kmag
 kmail
+kmix
 kmousetool
 knotes
 kontact
@@ -79,7 +81,6 @@ mobile-broadband-provider-info
 okular-extra-backends
 oxygen-icon-theme
 oxygencursors
-partitionmanager
 pcmciautils
 phonon-backend-gstreamer
 pinentry-qt4

@@ -9,13 +9,11 @@ ftp
 hdparm
 info
 iptables
-logrotate
 lshw
 lsof
 ltrace
 man-db
 mime-support
-parted
 pciutils
 popularity-contest
 psmisc

@@ -42,7 +42,7 @@ We've chosen KDE Software as our desktop user interface of choice
 
 == kde-runtime ==
 
- * khelpcenter4
+ * (khelpcenter4)
  * (phonon-backend-gstreamer)
 
 == kdebase ==
@@ -74,7 +74,7 @@ We've chosen KDE Software as our desktop user interface of choice
 == kdemultimedia ==
 
  * kdemultimedia-kio-plugins
- * kmix
+ * (kmix)
 
 == kdenetwork ==
 
@@ -106,7 +106,6 @@ We've chosen KDE Software as our desktop user interface of choice
  * (kde-config-gtk-style) # GTK setup
  * (plasma-widget-message-indicator)
  * (kde-telepathy-text-ui)
- * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
  * (kscreen)
  * (kio-mtp)
