@@ -29,6 +29,8 @@ fonts-tibetan-machine
 genisoimage
 gnupg-agent
 gpgsm
+grub-theme-tanglu
+grub2
 gtk2-engines-oxygen
 gtk3-engines-oxygen
 gwenview

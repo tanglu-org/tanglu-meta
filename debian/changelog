@@ -1,3 +1,13 @@
+tanglu-meta (0.8.7) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added grub-theme-tanglu to gnome-recommends, kde-recommends
+  * Added grub2 to gnome-recommends, kde-recommends
+  * Added logrotate to standard
+  * Removed grub-theme-tanglu from standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Thu, 16 Jan 2014 11:08:34 +0100
+
 tanglu-meta (0.8.6) staging; urgency=low
 
   * Refreshed dependencies

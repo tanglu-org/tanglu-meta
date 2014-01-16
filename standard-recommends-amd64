@@ -2,7 +2,6 @@ apparmor
 bash-completion
 command-not-found
 dmidecode
-grub-theme-tanglu
 iputils-tracepath
 irqbalance
 manpages

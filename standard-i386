@@ -9,6 +9,7 @@ ftp
 hdparm
 info
 iptables
+logrotate
 lshw
 lsof
 ltrace
