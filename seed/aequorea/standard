@@ -22,6 +22,7 @@ Task-Test-new-install: install skip
  * mime-support      # establishes framework for dealing with MIME
  * (nano)            # we need a text editor less scary than vi
  * psmisc            # utilities for /proc such as killall, pstree, fuser
+ * logrotate
  * pciutils
  * usbutils
  * time
@@ -73,7 +74,6 @@ These are used for debugging problems or examining the system.
  * (apparmor) # load AppArmor policies
  * (plymouth) # splash screen, and boot-time questions
  * (plymouth-themes-script)
- * (grub-theme-tanglu)
 
 == Network ==
 

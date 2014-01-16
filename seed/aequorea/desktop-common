@@ -111,6 +111,11 @@ Artwork:
  * (kerneloops-daemon) # watch for and allow reporting of kernel problems
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
 
+= Boot =
+
+ * (grub2)
+ * (grub-theme-tanglu)
+
 = Meta =
 
  * tanglu-standard # the standard Tanglu system
