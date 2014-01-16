@@ -1,3 +1,15 @@
+tanglu-meta (0.8.6) staging; urgency=low
+
+  * Refreshed dependencies
+  * Removed logrotate from standard
+  * Removed parted from standard
+  * Removed partitionmanager from kde-recommends
+  * Moved khelpcenter4 to kde-recommends
+  * Moved kmix to kde-recommends
+  * Moved baobab to gnome-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Thu, 16 Jan 2014 10:04:08 +0100
+
 tanglu-meta (0.8.4) staging; urgency=low
 
   * Refreshed dependencies
