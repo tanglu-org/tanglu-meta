@@ -17,12 +17,10 @@ Task-Test-new-install: install skip
  * hdparm            # speed up CD-ROM and disk access, used by installer
  * info
  * (irqbalance)      # optimize IRQ:CPU affinities on multicore systems
- * logrotate
  * man-db            # ColinWatson
  * (manpages)        # ColinWatson
  * mime-support      # establishes framework for dealing with MIME
  * (nano)            # we need a text editor less scary than vi
- * parted
  * psmisc            # utilities for /proc such as killall, pstree, fuser
  * pciutils
  * usbutils

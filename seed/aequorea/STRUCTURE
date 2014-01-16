@@ -1,7 +1,6 @@
 feature follow-recommends
 required:
 minimal: required
-boot:
 standard: minimal
 desktop-common: standard
 d-i-requirements: minimal
