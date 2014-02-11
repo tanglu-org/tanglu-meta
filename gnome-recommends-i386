@@ -66,7 +66,6 @@ network-manager-gnome
 network-manager-pptp
 network-manager-pptp-gnome
 pcmciautils
-plymouth-theme-tanglu-logo
 policykit-desktop-privileges
 printer-driver-c2esp
 printer-driver-foo2zjs
@@ -88,7 +87,7 @@ tanglu-theme-gnome
 telepathy-idle
 totem
 totem-mozilla
-ttf-wqy-microhei
+fonts-wqy-microhei
 vino
 xcursor-themes
 xdg-utils

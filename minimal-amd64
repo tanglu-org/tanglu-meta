@@ -7,7 +7,7 @@ debconf-i18n
 gnupg
 ifupdown
 initramfs-tools
-iproute
+iproute2
 iputils-ping
 isc-dhcp-client
 lsb-release

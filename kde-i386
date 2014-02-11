@@ -5,6 +5,7 @@ ark
 bc
 ca-certificates
 dolphin
+fonts-dejavu-core
 fonts-freefont-ttf
 foomatic-db-compressed-ppds
 foomatic-filters
@@ -34,7 +35,7 @@ rfkill
 software-properties-kde
 systemsettings
 tanglu-kde-settings-desktop
-ttf-dejavu-core
+tanglu-standard
 udisks
 unzip
 upower

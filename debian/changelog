@@ -1,3 +1,25 @@
+tanglu-meta (0.8.8) UNRELEASED; urgency=medium
+
+  * Refreshed dependencies
+  * Added acpi-support-base to standard
+  * Added btrfs-tools to standard-recommends
+  * Added eject to standard
+  * Added fonts-dejavu-core to gnome, kde
+  * Added iproute2 to minimal
+  * Added ntp to standard-recommends
+  * Added plymouth-theme-tanglu-logo to standard-recommends
+  * Added python3 to standard
+  * Added system-config-printer to gnome
+  * Added tanglu-standard to gnome, kde
+  * Added xz-utils to standard
+  * Removed iproute from minimal
+  * Removed plymouth-theme-tanglu-logo from gnome-recommends, kde-
+    recommends
+  * Removed plymouth-themes from standard-recommends
+  * Removed ttf-dejavu-core from gnome, kde
+
+ -- Jon Severinsson <jon@severinsson.net>  Tue, 11 Feb 2014 22:00:00 +0100
+
 tanglu-meta (0.8.7) staging; urgency=low
 
   * Refreshed dependencies

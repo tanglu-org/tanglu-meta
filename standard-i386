@@ -1,9 +1,11 @@
+acpi-support-base
 busybox-static
 cpio
 cron
 dnsutils
 dosfstools
 ed
+eject
 file
 ftp
 hdparm
@@ -18,8 +20,10 @@ mime-support
 pciutils
 popularity-contest
 psmisc
+python3
 rsync
 strace
 time
 usbutils
 wget
+xz-utils

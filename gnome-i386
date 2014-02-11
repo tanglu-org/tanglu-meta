@@ -9,6 +9,7 @@ doc-base
 eog
 evince
 file-roller
+fonts-dejavu-core
 fonts-freefont-ttf
 foomatic-db-compressed-ppds
 foomatic-filters
@@ -52,7 +53,8 @@ rfkill
 seahorse
 software-properties-gtk
 ssh-askpass-gnome
-ttf-dejavu-core
+system-config-printer
+tanglu-standard
 unzip
 wireless-tools
 xdg-user-dirs

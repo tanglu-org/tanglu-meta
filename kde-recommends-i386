@@ -92,7 +92,6 @@ plasma-widget-menubar
 plasma-widget-message-indicator
 plasma-widget-networkmanagement
 plasma-widgets-addons
-plymouth-theme-tanglu-logo
 policykit-desktop-privileges
 polkit-kde-1
 print-manager
@@ -112,6 +111,6 @@ tanglu-kde-settings-active
 tanglu-kde-settings-netbook
 tanglu-theme-kde
 ttf-oxygen-font-family
-ttf-wqy-microhei
+fonts-wqy-microhei
 xcursor-themes
 xdg-utils

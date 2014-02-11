@@ -1,5 +1,6 @@
 apparmor
 bash-completion
+btrfs-tools
 command-not-found
 dmidecode
 iputils-tracepath
@@ -10,9 +11,10 @@ mlocate
 mtr-tiny
 nano
 ntfs-3g
+ntp
 openssh-client
 plymouth
-plymouth-themes
+plymouth-theme-tanglu-logo
 ppp
 pppconfig
 pppoeconf
