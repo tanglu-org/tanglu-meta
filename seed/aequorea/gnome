@@ -28,12 +28,9 @@ Basic network services and Windows integration.
  * (xterm)                        # Provide a backup terminal and complete X env.
  * xdg-user-dirs-gtk
 
-Extra fonts (should be common, but not so for space reasons):
+Extra fonts:
 
- * (ttf-wqy-microhei)
- * (ttf-linux-libertine)
  * (fonts-cantarell)
- * (fonts-nanum)
 
 Input methods:
 
@@ -61,7 +58,7 @@ Base:
  * gvfs-bin			# mostly used as xdg-open backend
  * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
  * (gnome-disk-utility)
- * system-config-printer-gnome
+ * system-config-printer
  * gnome-menus
  * gnome-session
 
@@ -83,7 +80,6 @@ User:
  * gnome-screenshot
  * gnome-system-log
  * gnome-font-viewer
- * language-selector-gnome
  * (firefox)
  * (nautilus-share)
  * (rhythmbox)

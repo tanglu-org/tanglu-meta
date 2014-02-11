@@ -26,22 +26,20 @@ on a modern Unix-like system.
  * apt-utils               # apt-extracttemplates is required for debconf preconfiguration
  * bzip2
  * console-setup           # https://blueprints.launchpad.net/ubuntu/+spec/sane-installer-keyboard
- * debconf-i18n            # buildd chroots don't need this, but other systems generally do
- * console-tools
- * eject                   # very popular, useful, small
  * gnupg                   # introduce security from the very base
  * initramfs-tools         # needed for the kernel
  * less
  * lsb-release
- * module-init-tools       # required for kernel 2.6
- * netbase
- * python3                 # explicitly seeded, despite lsb-release also pulling it it
  * sudo                    # LaMontJones
  * tanglu-archive-keyring  # for authenticated package downloads
  * udev
- * ureadahead              # get things into cache as quickly as possible during boot
  * vim-tiny
  * whiptail                # for debconf's Dialog frontend
+
+== Internationalization ==
+
+ * locales
+ * debconf-i18n
 
 == Networking ==
 
@@ -49,15 +47,11 @@ These provide various networking services, all should be configured in a client-
 unless the user requires it.
 
  * isc-dhcp-client   # LaMontJones
- * iproute
+ * iproute2
  * ifupdown
+ * iputils-ping
+ * netbase
+ * netcat-openbsd
  * net-tools
- * ntpdate           # FabioMassimoDiNitto
  * resolvconf
 
- * iputils-ping
- * netcat-openbsd # FabioMassimoDiNitto
-
-= Meta =
-
- * tanglu-minimal

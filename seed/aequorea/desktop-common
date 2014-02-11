@@ -91,8 +91,9 @@ Packages used for X preconfiguration are just Recommends; removing them after in
 
 Fonts:
 
- * ttf-dejavu-core
+ * fonts-dejavu-core
  * fonts-freefont-ttf
+ * (fonts-linuxlibertine)
  * (fonts-kacst-one)
  * (fonts-thai-tlwg)
  * (fonts-lao)
@@ -100,15 +101,13 @@ Fonts:
  * (fonts-tibetan-machine)
  * (fonts-sil-abyssinica)
  * (fonts-lklug-sinhala)
-
-Artwork:
- * (plymouth-theme-tanglu-logo)
+ * (fonts-wqy-microhei)
+ * (fonts-nanum)
 
 = Other =
 
  * anacron # generally appropriate for desktops
  * libxp6 # required for some third party apps. See #21953
- * (kerneloops-daemon) # watch for and allow reporting of kernel problems
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
 
 = Boot =

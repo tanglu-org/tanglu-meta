@@ -23,12 +23,9 @@ Basic network services and Windows integration.
 
 = GUI infrastructure =
 
-Extra fonts (should be common, but not so for space reasons):
+Extra fonts:
 
- * (ttf-wqy-microhei)
- * (fonts-nanum)
  * (ttf-oxygen-font-family)
- * (ttf-linux-libertine)
 
 Input methods:
 

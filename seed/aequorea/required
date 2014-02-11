@@ -38,6 +38,7 @@ These are packages which have "Essential: yes" in their control file.
 
 Our init system:
 
+ * dbus
  * systemd
  * systemd-sysv
 
@@ -48,7 +49,6 @@ In some sense, debconf isn't truly required, but it makes our life a lot easier 
 Other packages necessary to get started:
 
  * dash               # Much faster default shell
- * locales
  * makedev
  * mawk
  * passwd
