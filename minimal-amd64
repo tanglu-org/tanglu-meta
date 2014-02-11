@@ -1,7 +1,9 @@
 adduser
 apt
 apt-utils
+bzip2
 console-setup
+dbus
 debconf
 debconf-i18n
 gnupg
@@ -10,6 +12,8 @@ initramfs-tools
 iproute2
 iputils-ping
 isc-dhcp-client
+less
+locales
 lsb-release
 makedev
 mawk
@@ -18,6 +22,7 @@ netbase
 netcat-openbsd
 passwd
 procps
+resolvconf
 sudo
 systemd
 systemd-sysv
