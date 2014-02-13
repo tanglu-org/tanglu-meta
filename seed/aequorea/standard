@@ -75,7 +75,6 @@ These are used for debugging problems or examining the system.
 
  * (command-not-found)
  * (update-manager-core)  # needed for server based release upgrades
- * (apparmor) # load AppArmor policies
  * (plymouth) # splash screen, and boot-time questions
  * (plymouth-theme-tanglu-logo)
 
