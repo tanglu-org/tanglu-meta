@@ -102,18 +102,6 @@ These packages are included for size guidance until we have Tanglu-specific pack
  * gnome-themes-standard
  * (tanglu-theme-gnome)
 
-The gstreamer0.10 packages we want to install until no gstreamer1.0 packages are on default media:
-
- * gstreamer0.10-alsa
- * gstreamer0.10-plugins-base-apps
- * gstreamer0.10-pulseaudio
-
-The gstreamer1.0 packages we want to install:
-
- * gstreamer1.0-alsa
- * gstreamer1.0-plugins-base-apps
- * gstreamer1.0-pulseaudio
-
 Accessibility tools:
 
  * (gnome-accessibility-themes)
