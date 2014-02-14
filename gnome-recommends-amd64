@@ -24,6 +24,7 @@ fonts-sil-abyssinica
 fonts-sil-padauk
 fonts-thai-tlwg
 fonts-tibetan-machine
+fonts-wqy-microhei
 gcc
 genisoimage
 gnect
@@ -36,6 +37,17 @@ gnome-terminal
 gnomine
 grub-theme-tanglu
 grub2
+gstreamer0.10-alsa
+gstreamer0.10-fluendo-mp3
+gstreamer0.10-plugins-bad
+gstreamer0.10-plugins-base-apps
+gstreamer0.10-plugins-good
+gstreamer0.10-plugins-ugly
+gstreamer0.10-pulseaudio
+gstreamer1.0-libav
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-good
+gstreamer1.0-plugins-ugly
 gvfs-fuse
 hplip
 ibus
@@ -46,6 +58,7 @@ ibus-table
 im-config
 inputattach
 laptop-detect
+libavcodec-extra-54
 libgail-common
 libnss-mdns
 libpam-gnome-keyring
@@ -87,7 +100,6 @@ tanglu-theme-gnome
 telepathy-idle
 totem
 totem-mozilla
-fonts-wqy-microhei
 vino
 xcursor-themes
 xdg-utils

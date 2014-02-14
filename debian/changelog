@@ -1,3 +1,28 @@
+tanglu-meta (0.8.9) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer0.10-alsa to kde-recommends
+  * Added gstreamer0.10-fluendo-mp3 to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-plugins-bad to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-plugins-base-apps to kde-recommends
+  * Added gstreamer0.10-plugins-good to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-plugins-ugly to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-pulseaudio to kde-recommends
+  * Added gstreamer1.0-alsa to kde
+  * Added gstreamer1.0-libav to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-plugins-bad to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-plugins-base-apps to kde
+  * Added gstreamer1.0-plugins-good to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-plugins-ugly to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-pulseaudio to kde
+  * Added libavcodec-extra-54 to gnome-recommends, kde-recommends
+  * Removed apparmor from standard-recommends
+  * Moved gstreamer0.10-alsa to gnome-recommends
+  * Moved gstreamer0.10-plugins-base-apps to gnome-recommends
+  * Moved gstreamer0.10-pulseaudio to gnome-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Fri, 14 Feb 2014 18:02:42 +0100
+
 tanglu-meta (0.8.8) staging; urgency=medium
 
   * Refreshed dependencies
