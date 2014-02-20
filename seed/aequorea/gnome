@@ -101,6 +101,7 @@ These packages are included for size guidance until we have Tanglu-specific pack
  * dmz-cursor-theme
  * gnome-themes-standard
  * (tanglu-theme-gnome)
+ * (tanglu-gnome-settings)
 
 Accessibility tools:
 
