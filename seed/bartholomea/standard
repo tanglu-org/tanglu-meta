@@ -52,7 +52,6 @@ These provide various networking services, all should be configured in a client-
  * iptables       # FabioMassimoDiNitto
  * (telnet)
  * (ppp)
- * (pppconfig)
  * (pppoeconf)
  * (openssh-client) # ColinWatson
  * rsync          # would be just client but they are the same binary apparently
