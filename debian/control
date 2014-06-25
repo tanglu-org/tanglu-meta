@@ -6,6 +6,7 @@ Standards-Version: 3.9.4
 Build-Depends: debhelper (>= 8), germinate (>= 1.18)
 
 Package: tanglu-minimal
+Priority: important
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
@@ -23,6 +24,7 @@ Description: Minimal core of Tanglu
  it not be removed.
 
 Package: tanglu-standard
+Priority: standard
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
