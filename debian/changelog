@@ -1,3 +1,13 @@
+tanglu-meta (0.8.11) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ibus-pinyin-db-android from gnome-recommends
+  * Removed pppconfig from standard-recommends
+  * Set Priority of tanglu-minimal to important and tanglu-standard
+    to standard for tasksel compatibility
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 25 Jun 2014 20:30:12 +0200
+
 tanglu-meta (0.8.10) staging; urgency=low
 
   * Refreshed dependencies
