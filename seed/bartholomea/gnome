@@ -12,7 +12,6 @@ Task-Seeds: desktop-common
 Bluetooth:
 
  * (gnome-bluetooth) # desktop bluetooth support
- * (bluez-gstreamer)
 
 = Network Services =
 
@@ -39,7 +38,6 @@ Input methods:
  * (ibus-gtk3)
  * (ibus-table)
  * (ibus-pinyin)
- * (ibus-pinyin-db-android)
 
 = Desktop GNOME Apps =
 
