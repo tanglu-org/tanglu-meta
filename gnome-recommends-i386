@@ -4,9 +4,8 @@ avahi-autoipd
 avahi-daemon
 baobab
 bluez
-bluez-alsa
 bluez-cups
-bluez-gstreamer
+bluez-obexd
 brltty
 cups
 cups-bsd
@@ -37,15 +36,10 @@ gnome-terminal
 gnomine
 grub-theme-tanglu
 grub2
-gstreamer0.10-alsa
-gstreamer0.10-fluendo-mp3
-gstreamer0.10-plugins-bad
-gstreamer0.10-plugins-base-apps
-gstreamer0.10-plugins-good
-gstreamer0.10-plugins-ugly
-gstreamer0.10-pulseaudio
+gstreamer1.0-fluendo-mp3
 gstreamer1.0-libav
 gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-base-apps
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
 gvfs-fuse
@@ -57,7 +51,7 @@ ibus-table
 im-config
 inputattach
 laptop-detect
-libavcodec-extra-54
+libavcodec-extra-55
 libgail-common
 libnss-mdns
 libpam-gnome-keyring

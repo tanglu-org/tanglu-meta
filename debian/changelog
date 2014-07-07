@@ -1,3 +1,30 @@
+tanglu-meta (0.8.12) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-fluendo-mp3 to gnome-recommends, kde-recommends
+  * Removed bluez-alsa from gnome-recommends, kde-recommends
+  * Removed bluez-gstreamer from gnome-recommends
+  * Removed gstreamer0.10-alsa from gnome-recommends, kde-recommends
+  * Removed gstreamer0.10-fluendo-mp3 from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-bad from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-base-apps from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-good from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-ugly from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-pulseaudio from gnome-recommends, kde-
+    recommends
+  * Removed libavcodec-extra-54 from gnome-recommends, kde-recommends
+  * Moved gstreamer1.0-plugins-base-apps to gnome-recommends, kde-
+    recommends
+  * Added bluez-obexd to gnome-recommends, kde-recommends
+  * Added libavcodec-extra-55 to gnome-recommends, kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Tue, 08 Jul 2014 08:24:48 +0200
+
 tanglu-meta (0.8.11) staging; urgency=medium
 
   * Refreshed dependencies
