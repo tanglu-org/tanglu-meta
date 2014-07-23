@@ -11,3 +11,4 @@ language-packs: desktop-common
 live-common: standard
 gnome: desktop-common
 kde: desktop-common
+fvwm-nightshade: desktop-common
