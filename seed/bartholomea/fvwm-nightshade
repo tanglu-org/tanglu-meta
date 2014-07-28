@@ -5,6 +5,8 @@ Task-Extended-Description: Tanglu using the Fvwm-Nightshade Desktop
 Task-Key: tanglu-fvwm-nightshade
 Task-Seeds: desktop-common
 
+* Feature: no-follow-recommends
+
 = Hardware and Architecture Support =
 
 == Architecture-independent ==
@@ -19,31 +21,27 @@ Basic network services and Windows integration.
 
  * (avahi-autoipd)                  # IPv4 link-local interface configuration support
  * (network-manager-gnome)
- * (network-manager-pptp)
  * (network-manager-pptp-gnome)
- * (modemmanager)                   # Add support for mobile modem
- * (usb-modeswitch)
  * (mobile-broadband-provider-info)
 
 = GUI infrastructure =
  * fvwm                             # Window manager
- * fvwm-nightshade                  # FVWM configuration - package currently not in Tanglu
+# * fvwm-nightshade                  # FVWM configuration - package currently not in Tanglu
  * stalonetray                      # Systray
  * xterm                            # Provide a backup terminal and complete X env.
  * xscreensaver                     # Locking and screen saving
- * librsvg2                         # SVG support
+ * librsvg2-bin                     # SVG support
  * x11-apps                         # xwd, transset, ...
  * gksu                             # Graphical superuser access
  * (cpufrequtils)                   # control cpu states
- * (fdpowermon)                     # Battery status in systray
+ * (xfce4-power-manager)            # power manager from Xfce desktop
  * (pm-utils)                       # Suspend/hibernate support
- * (volumeicon)                     # Volume control in systray
+ * (volumeicon-alsa)                # Volume control in systray
  * (parcellite)                     # clipboard for systray
 
 
 Extra fonts:
  * fonts-liberation
- * fonts-dejavu
 
 
 Input methods:
@@ -54,10 +52,10 @@ Rather than using the meta-packages they are deliberately expanded so
 that we can select things a bit better.
 
 Base:
- * python2.7
  * lightdm                          # Login manager
  * conky                            # For clock and cpu applets
  * feh                              # Wallpaper support
+ * imagemagick                      # convert and display support
  * lxappearance                     # Gtk2/3 theme chooser
  * qt4-qtconfig                     # Qt4 theme chooser
  * pcmanfm                          # File manager with mount support
@@ -66,23 +64,23 @@ Base:
  * (gpointing-device-settings)      # touchpad config
  * system-config-printer            # Printer manager
  * gnome-system-tools               # users-admin
- * gvfs-fuse                        # for access of non gio applications to gvfs mounts
- * gvfs-backends                    # for adding support for backends (photos, network etc ...) to gvfs
  * (ntp)                            # Add support for synchronisation with time servers
  * (font-manager)                   # Font configurator
  * (lxterminal)                     # 2nd terminal to xterm
  * (synaptic)                       # For our purposes, it's plumbing ...
- * (update-notifier)                # For crash report and updates notifications
+# * (update-notifier)                # For crash report and updates notifications
 
 User:
- * xfe                              # Filemanager with text editor (Xfw), text viewer, image viewer (Xfi)
  * (firefox)                        # Web browser
  * (icedove)                        # Email client
  * (pidgin)                         # Instant messaging client
  * (gimp)                           # Image Manipulation
+ * (gpicview)                       # image viewer
+ * (mousepad)                       # text editor and viewer
  * (gmusicbrowser)                  # Music player
  * (mplayer2)                       # Video player
  * (xchm)                           # CHM viewer
+ * (xpdf)                           # PDF viewer
  * galculator                       # calculator
  * (filezilla)                      # FTP/FTPS/SFTP client
  * (gufw)                           # Firewall
@@ -91,6 +89,8 @@ User:
  * (gpa)                            # GNU Privacy Assistant - only in Aequorea available
  * (hardinfo)                       # Displays system information
  * (guvcview)                       # UVC Viewer
+ * (xsane)                          # scan tool
+ * (geany)                          # IDE
 
 
 Games: We only ship a few by default.
@@ -101,11 +101,12 @@ These packages are included for size guidance until we have Tanglu-specific pack
 
  * dmz-cursor-theme
  * gnome-themes-standard
+ * gnome-icon-theme-mint-x
  * (tanglu-theme-gnome)
  * (xcursor-themes)
 
 Accessibility tools:
- * (xneurs)                         # Keyboard settings
+ * (xneur)                          # Keyboard settings
  * (brltty)                         # Braille support
 
 = Development =
@@ -116,3 +117,9 @@ to compile a driver. -mdz
 
  * (gcc)
  * (make)
+
+= Others =
+Here are useful tools listed
+
+ * vim                              # better version as tiny vim :P
+ 
