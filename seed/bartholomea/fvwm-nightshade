@@ -11,103 +11,113 @@ Task-Seeds: desktop-common
 
 == Architecture-independent ==
 
-Bluetooth:
+System services:
+ * blueman                          # Bluetooth
+ * cpufrequtils                     # Control cpu states
+ * pm-utils                         # Suspend/hibernate support
+ * im-config                        # For changing input method
 
- * (blueman)
-
-= Network Services =
-
-Basic network services and Windows integration.
-
- * (avahi-autoipd)                  # IPv4 link-local interface configuration support
- * (network-manager-gnome)
- * (network-manager-pptp-gnome)
- * (mobile-broadband-provider-info)
+Network Services:
+ * avahi-autoipd                    # IPv4 link-local interface configuration support
+ * network-manager-gnome
+ * mobile-broadband-provider-info
 
 = GUI infrastructure =
+
+== System ==
+
+Startup:
+ * lightdm                          # Login manager
+ * pcmanfm                          # File manager with mount support (runs as daemon)
+
+Base:
  * fvwm                             # Window manager
 # * fvwm-nightshade                  # FVWM configuration - package currently not in Tanglu
  * stalonetray                      # Systray
  * xterm                            # Provide a backup terminal and complete X env.
  * xscreensaver                     # Locking and screen saving
- * librsvg2-bin                     # SVG support
  * x11-apps                         # xwd, transset, ...
- * gksu                             # Graphical superuser access
- * (cpufrequtils)                   # control cpu states
- * (xfce4-power-manager)            # power manager from Xfce desktop
- * (pm-utils)                       # Suspend/hibernate support
- * (volumeicon-alsa)                # Volume control in systray
- * (parcellite)                     # clipboard for systray
-
-
-Extra fonts:
- * fonts-liberation
-
-
-Input methods:
- * (im-config)                      # For changing input method
-
-= Desktop Fvwm-Nightshade Apps =
-Rather than using the meta-packages they are deliberately expanded so
-that we can select things a bit better.
-
-Base:
- * lightdm                          # Login manager
+ * compton                          # composite manager
+ * librsvg2-bin                     # SVG support
  * conky                            # For clock and cpu applets
  * feh                              # Wallpaper support
  * imagemagick                      # convert and display support
+
+Systemtray:
+ * xfce4-power-manager              # power manager from Xfce desktop
+ * volumeicon-alsa                  # Volume control in systray
+ * clipit                           # clipboard for systray
+
+Configuration:
  * lxappearance                     # Gtk2/3 theme chooser
  * qt4-qtconfig                     # Qt4 theme chooser
- * pcmanfm                          # File manager with mount support
- * xarchiver                        # Frontend for archive tools
  * lxinput                          # Mouse-/keyboard config tool
- * (gpointing-device-settings)      # touchpad config
+ * gpointing-device-settings        # touchpad config
  * system-config-printer            # Printer manager
  * gnome-system-tools               # users-admin
- * (ntp)                            # Add support for synchronisation with time servers
- * (font-manager)                   # Font configurator
- * (lxterminal)                     # 2nd terminal to xterm
- * (synaptic)                       # For our purposes, it's plumbing ...
-# * (update-notifier)                # For crash report and updates notifications
+ * font-manager                     # Font configurator
 
-User:
- * (firefox)                        # Web browser
- * (icedove)                        # Email client
- * (pidgin)                         # Instant messaging client
- * (gimp)                           # Image Manipulation
- * (gpicview)                       # image viewer
- * (mousepad)                       # text editor and viewer
- * (gmusicbrowser)                  # Music player
- * (mplayer2)                       # Video player
- * (xchm)                           # CHM viewer
- * (xpdf)                           # PDF viewer
+Administration:
+ * gksu                             # Graphical superuser access
+ * synaptic                         # Package manager ...
+ * gdebi                            # User friendly Package installer
+
+== User ==
+
+Internet:
+ * firefox                          # Web browser
+ * balsa                            # Email client
+ * pidgin                           # Instant messaging client
+ * filezilla                        # FTP/FTPS/SFTP client
+
+Multimedia:
+ * gmusicbrowser                    # Music player
+ * mplayer2                         # Video player
+ * guvcview                         # UVC Viewer
+
+Security:
+ * gpa                              # GNU Privacy Assistant - only in Aequorea available
+ * gufw                             # Firewall
+
+Text:
+ * mousepad                         # text editor and viewer
+ * xchm                             # CHM viewer
+ * xpdf                             # PDF viewer
+
+Office:
+ * libreoffice-writer               # Word processor
+ * libreoffice-calc                 # Spreadsheet
+ * libreoffice-impress              # Presentation
+
+Development:
+ * geany                            # IDE
+
+Tools:
+ * xarchiver                        # Frontend for archive tools
+ * lxterminal                       # 2nd terminal to xterm
+ * gmrun                            # Comfortable launcher
+
+Accessories:
  * galculator                       # calculator
- * (filezilla)                      # FTP/FTPS/SFTP client
- * (gufw)                           # Firewall
- * (xfburn)                         # CD/DVD burn program
- * (gmrun)                          # Comfortable launcher
- * (gpa)                            # GNU Privacy Assistant - only in Aequorea available
- * (hardinfo)                       # Displays system information
- * (guvcview)                       # UVC Viewer
- * (xsane)                          # scan tool
- * (geany)                          # IDE
+ * mypaint                          # Image Manipulation
+ * gpicview                         # image viewer
+ * simple-scan                      # scan tool
+ * xfburn                           # CD/DVD burn program
+ * hardinfo                         # Displays system information
 
+Games:
+ * ace-of-penguins                  # A set of games like under win :P
 
-Games: We only ship a few by default.
- * (ace-of-penguins)                # A set of games like under win :P
-
-Themes: we will ship only the very best looking themes ;-)
-These packages are included for size guidance until we have Tanglu-specific packages.
-
+Themes:
  * dmz-cursor-theme
  * gnome-themes-standard
  * gnome-icon-theme-mint-x
- * (tanglu-theme-gnome)
- * (xcursor-themes)
+ * tanglu-theme-gnome
+ * xcursor-themes
 
 Accessibility tools:
- * (xneur)                          # Keyboard settings
- * (brltty)                         # Braille support
+ * xneur                            # Keyboard settings
+ * brltty                           # Braille support
 
 = Development =
 Here we provide a minimal development environment sufficient to build kernel
@@ -115,11 +125,12 @@ drivers, so that this is possible on the live CD and in scenarios where
 it is problematic to get these packages onto the installed system in order
 to compile a driver. -mdz
 
- * (gcc)
- * (make)
+ * gcc
+ * make
 
 = Others =
 Here are useful tools listed
 
  * vim                              # better version as tiny vim :P
- 
+
+
