@@ -5,7 +5,7 @@ Task-Extended-Description: Tanglu using the Fvwm-Nightshade Desktop
 Task-Key: tanglu-fvwm-nightshade
 Task-Seeds: desktop-common
 
-* Feature: no-follow-recommends
+Feature: no-follow-recommends
 
 = Hardware and Architecture Support =
 
@@ -13,38 +13,41 @@ Task-Seeds: desktop-common
 
 System services:
  * blueman                          # Bluetooth
- * cpufrequtils                     # Control cpu states
- * pm-utils                         # Suspend/hibernate support
  * im-config                        # For changing input method
 
 Network Services:
  * avahi-autoipd                    # IPv4 link-local interface configuration support
- * network-manager-gnome
+ * network-manager-gnome            # Network management
  * mobile-broadband-provider-info
 
 = GUI infrastructure =
 
 == System ==
 
-Startup:
+Base:
  * lightdm                          # Login manager
+ * fvwm                             # Window manager
  * pcmanfm                          # File manager with mount support (runs as daemon)
 
-Base:
- * fvwm                             # Window manager
-# * fvwm-nightshade                  # FVWM configuration - package currently not in Tanglu
+fvwm-nightshade (simulates the package until it is available in the archive):
+ * python-xdg                       # Library to access freedesktop.org standards
+ * cpufrequtils                     # Control cpu states
+ * pm-utils                         # Suspend/hibernate support
  * stalonetray                      # Systray
  * xterm                            # Provide a backup terminal and complete X env.
  * xscreensaver                     # Locking and screen saving
- * x11-apps                         # xwd, transset, ...
+ * x11-apps                         # X11 tools needed by FNS: xwd, transset, ...
  * compton                          # composite manager
  * librsvg2-bin                     # SVG support
  * conky                            # For clock and cpu applets
  * feh                              # Wallpaper support
  * imagemagick                      # convert and display support
+ * mplayer                          # Video player
+ * python-mutagen                   # Audio metadata editing library for nanomoids
+ * python-simplejson                # JSON encoder/decoder for nanomoids
 
-Systemtray:
- * xfce4-power-manager              # power manager from Xfce desktop
+Systemtray Applets:
+ * fdpowermon                       # Simple battery power monitor
  * volumeicon-alsa                  # Volume control in systray
  * clipit                           # clipboard for systray
 
@@ -54,7 +57,7 @@ Configuration:
  * lxinput                          # Mouse-/keyboard config tool
  * gpointing-device-settings        # touchpad config
  * system-config-printer            # Printer manager
- * gnome-system-tools               # users-admin
+ * gnome-system-tools               # users-admin, etc.
  * font-manager                     # Font configurator
 
 Administration:
@@ -67,12 +70,11 @@ Administration:
 Internet:
  * firefox                          # Web browser
  * balsa                            # Email client
- * pidgin                           # Instant messaging client
+ * xchat                            # Instant messaging client
  * filezilla                        # FTP/FTPS/SFTP client
 
 Multimedia:
- * gmusicbrowser                    # Music player
- * mplayer2                         # Video player
+ * audacious                        # Music player
  * guvcview                         # UVC Viewer
 
 Security:
@@ -85,12 +87,8 @@ Text:
  * xpdf                             # PDF viewer
 
 Office:
- * libreoffice-writer               # Word processor
- * libreoffice-calc                 # Spreadsheet
- * libreoffice-impress              # Presentation
-
-Development:
- * geany                            # IDE
+ * abiword                          # Word processor
+ * gnumeric                         # Spreadsheet
 
 Tools:
  * xarchiver                        # Frontend for archive tools
@@ -127,10 +125,3 @@ to compile a driver. -mdz
 
  * gcc
  * make
-
-= Others =
-Here are useful tools listed
-
- * vim                              # better version as tiny vim :P
-
-
