@@ -5,7 +5,7 @@ Task-Extended-Description: Tanglu using the Fvwm-Nightshade Desktop
 Task-Key: tanglu-fvwm-nightshade
 Task-Seeds: desktop-common
 
-Feature: no-follow-recommends
+ * Feature: no-follow-recommends
 
 = Hardware and Architecture Support =
 
@@ -13,6 +13,7 @@ Feature: no-follow-recommends
 
 System services:
  * blueman                          # Bluetooth
+ * dialog                           # to remove zenity
  * im-config                        # For changing input method
 
 Network Services:
@@ -26,25 +27,26 @@ Network Services:
 
 Base:
  * lightdm                          # Login manager
- * fvwm                             # Window manager
- * pcmanfm                          # File manager with mount support (runs as daemon)
+ * pm-utils                         # Suspend/hibernate support
+ * compton                          # composite manager
 
 fvwm-nightshade (simulates the package until it is available in the archive):
- * python-xdg                       # Library to access freedesktop.org standards
- * cpufrequtils                     # Control cpu states
- * pm-utils                         # Suspend/hibernate support
- * stalonetray                      # Systray
- * xterm                            # Provide a backup terminal and complete X env.
- * xscreensaver                     # Locking and screen saving
- * x11-apps                         # X11 tools needed by FNS: xwd, transset, ...
- * compton                          # composite manager
- * librsvg2-bin                     # SVG support
+ * fvwm                             # Window manager
  * conky                            # For clock and cpu applets
+ * cpufrequtils                     # Control cpu states
  * feh                              # Wallpaper support
+ * gksu                             # Graphical superuser access
  * imagemagick                      # convert and display support
- * mplayer                          # Video player
+ * librsvg2-bin                     # SVG support
+ * mplayer                          # Video player for nanomoids
+ * pcmanfm                          # File manager with mount support (runs as daemon)
  * python-mutagen                   # Audio metadata editing library for nanomoids
  * python-simplejson                # JSON encoder/decoder for nanomoids
+ * python-xdg                       # Library to access freedesktop.org standards
+ * stalonetray                      # Systray
+ * xscreensaver                     # Locking and screen saving
+ * xterm                            # default terminal in FNS
+ * x11-apps                         # X11 tools needed by FNS: xwd, transset, ...
 
 Systemtray Applets:
  * fdpowermon                       # Simple battery power monitor
@@ -53,28 +55,26 @@ Systemtray Applets:
 
 Configuration:
  * lxappearance                     # Gtk2/3 theme chooser
- * qt4-qtconfig                     # Qt4 theme chooser
  * lxinput                          # Mouse-/keyboard config tool
- * gpointing-device-settings        # touchpad config
+# * gpointing-device-settings        # touchpad config  <= Debian Bug #725593
  * system-config-printer            # Printer manager
  * gnome-system-tools               # users-admin, etc.
  * font-manager                     # Font configurator
 
 Administration:
- * gksu                             # Graphical superuser access
  * synaptic                         # Package manager ...
  * gdebi                            # User friendly Package installer
 
 == User ==
 
 Internet:
- * firefox                          # Web browser
+ * midori                           # Web browser
  * balsa                            # Email client
  * xchat                            # Instant messaging client
  * filezilla                        # FTP/FTPS/SFTP client
 
 Multimedia:
- * audacious                        # Music player
+ * gmusicbrowser                    # Music player
  * guvcview                         # UVC Viewer
 
 Security:
@@ -83,12 +83,11 @@ Security:
 
 Text:
  * mousepad                         # text editor and viewer
- * xchm                             # CHM viewer
  * xpdf                             # PDF viewer
 
-Office:
- * abiword                          # Word processor
- * gnumeric                         # Spreadsheet
+Office: (80 MB)
+# * abiword                          # Word processor
+# * gnumeric                         # Spreadsheet
 
 Tools:
  * xarchiver                        # Frontend for archive tools
