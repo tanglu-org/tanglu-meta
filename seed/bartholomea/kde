@@ -52,8 +52,7 @@ We've chosen KDE Software as our desktop user interface of choice
 == kde-workspace ==
 
  * kde-workspace
- * kde-window-manager [amd64 i386 powerpc]
- * kde-window-manager-gles [armhf]
+ * kde-window-manager
  * klipper
  * ksysguard
  * systemsettings
@@ -118,17 +117,16 @@ Accessibility tools:
  * (cryptsetup) # needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
 
 = On top =
+ * sddm
  * plasma-desktop # Plasma for desktops/laptops
  * plasma-netbook
 
 == kdebase ==
 
  * dolphin
- * kdm
 
 == kdepim ==
 
- * (akregator)
  * (kaddressbook)
  * (kdepim-kresources)
  * (kdepim-runtime)
@@ -165,7 +163,6 @@ Accessibility tools:
 
  * (konversation)
  * (amarok)         # audio multimediaplayer
- * (cdrdao)
  * (pinentry-qt4) # for SMIME e-mail support
  * (gnupg-agent) # for SMIME e-mail support
  * (gpgsm) # SMIME engine
