@@ -88,13 +88,11 @@ We've chosen KDE Software as our desktop user interface of choice
 
  * (kuser)
  * (apper) # distro-agnostic package manager
+ * (software-properties-kde)
  * (polkit-kde-1) # choose it over the GTK+ version
  * (gtk2-engines-oxygen)
  * (gtk3-engines-oxygen)
  * (kdesudo) # simpler and more reliable than kdesu
- * upower
- * udisks
- * software-properties-kde
  * (plasma-widgets-addons)
  * (oxygencursors)
  * (oxygen-icon-theme)
