@@ -1,5 +1,4 @@
 acpi-support
-akregator
 amarok
 apper
 avahi-autoipd
@@ -9,7 +8,6 @@ bluez
 bluez-cups
 bluez-obexd
 brltty
-cdrdao
 colord-kde
 cryptsetup
 cups
