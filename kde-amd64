@@ -18,7 +18,6 @@ kde-workspace
 kde-zeroconf
 kdemultimedia-kio-plugins
 kdepasswd
-kdm
 klipper
 konsole
 ksnapshot
@@ -34,6 +33,7 @@ plasma-desktop
 plasma-netbook
 pulseaudio
 rfkill
+sddm
 software-properties-kde
 systemsettings
 tanglu-kde-settings-desktop

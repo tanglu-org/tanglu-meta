@@ -1,3 +1,14 @@
+tanglu-meta (0.8.13) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added pppconfig to standard-recommends
+  * Added sddm to kde
+  * Removed akregator from kde-recommends
+  * Removed cdrdao from kde-recommends
+  * Removed kdm from kde
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 23 Aug 2014 18:14:26 +0200
+
 tanglu-meta (0.8.12) staging; urgency=medium
 
   * Refreshed dependencies
