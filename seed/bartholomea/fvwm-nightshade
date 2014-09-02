@@ -15,6 +15,10 @@ System services:
  * blueman                          # Bluetooth
  * dialog                           # to remove zenity
  * im-config                        # For changing input method
+ * gvfs-backends                    # needed by pcmanfm
+ * gvfs-fuse                        # needed by pcmanfm
+ * libmtp-runtime                   # needed by pcmanfm
+ * accountsservice                  # user account information service
 
 Network Services:
  * avahi-autoipd                    # IPv4 link-local interface configuration support
@@ -27,7 +31,6 @@ Network Services:
 
 Base:
  * lightdm                          # Login manager
- * pm-utils                         # Suspend/hibernate support
  * compton                          # composite manager
 
 fvwm-nightshade (simulates the package until it is available in the archive):
@@ -36,20 +39,17 @@ fvwm-nightshade (simulates the package until it is available in the archive):
  * cpufrequtils                     # Control cpu states
  * feh                              # Wallpaper support
  * gksu                             # Graphical superuser access
+ * gtk2-engines-murrine             # Theme engine needed by FNS Gtk themes
+ * gtk2-engines-pixbuf              # Theme engine needed by FNS Gtk themes
  * imagemagick                      # convert and display support
  * librsvg2-bin                     # SVG support
- * mplayer                          # Video player for nanomoids
  * pcmanfm                          # File manager with mount support (runs as daemon)
- * python-mutagen                   # Audio metadata editing library for nanomoids
- * python-simplejson                # JSON encoder/decoder for nanomoids
  * python-xdg                       # Library to access freedesktop.org standards
  * stalonetray                      # Systray
  * xscreensaver                     # Locking and screen saving
- * xterm                            # default terminal in FNS
- * x11-apps                         # X11 tools needed by FNS: xwd, transset, ...
 
 Systemtray Applets:
- * fdpowermon                       # Simple battery power monitor
+ * xfce4-power-manager              # The Xfce 4 Power manager
  * volumeicon-alsa                  # Volume control in systray
  * clipit                           # clipboard for systray
 
@@ -75,6 +75,7 @@ Internet:
 
 Multimedia:
  * gmusicbrowser                    # Music player
+ * mplayer2                         # media player
  * guvcview                         # UVC Viewer
 
 Security:
@@ -106,11 +107,10 @@ Games:
  * ace-of-penguins                  # A set of games like under win :P
 
 Themes:
- * dmz-cursor-theme
+# * dmz-cursor-theme
  * gnome-themes-standard
- * gnome-icon-theme-mint-x
- * tanglu-theme-gnome
- * xcursor-themes
+ * tango-icon-theme
+# * tanglu-theme-gnome
 
 Accessibility tools:
  * xneur                            # Keyboard settings
