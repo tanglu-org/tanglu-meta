@@ -20,5 +20,4 @@ pppoeconf
 tcpdump
 telnet
 ufw
-update-manager-core
 uuid-runtime

@@ -1,3 +1,16 @@
+tanglu-meta (0.8.14) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-software to gnome-recommends
+  * Removed libavcodec-extra-55 from gnome-recommends, kde-recommends
+  * Removed totem-mozilla from gnome-recommends
+  * Removed udisks from kde
+  * Removed update-manager-core from standard-recommends
+  * Removed upower from kde
+  * Moved software-properties-kde to kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 24 Nov 2014 20:08:06 +0100
+
 tanglu-meta (0.8.13) staging; urgency=medium
 
   * Refreshed dependencies

@@ -77,7 +77,6 @@ ktouchpadenabler
 kuser
 kwalletmanager
 laptop-detect
-libavcodec-extra-55
 libnss-mdns
 libqca2-plugin-ossl
 libreoffice-calc
@@ -113,6 +112,7 @@ pulseaudio-module-bluetooth
 pulseaudio-module-x11
 python-qt4-dbus
 skanlite
+software-properties-kde
 tanglu-kde-settings-active
 tanglu-kde-settings-netbook
 tanglu-theme-kde
