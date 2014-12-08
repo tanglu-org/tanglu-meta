@@ -59,6 +59,7 @@ Base:
  * system-config-printer
  * gnome-menus
  * gnome-session
+ * (gnome-packagekit-session)
  * (gnome-software)
 
 User:
@@ -68,7 +69,6 @@ User:
  * (telepathy-idle)        # basic IRC support for empathy
  * gnome-calculator
  * gedit
- * gnome-packagekit
  * software-properties-gtk # default GUI sources.list editor / extra drivers
  * gnome-documents
  * seahorse
