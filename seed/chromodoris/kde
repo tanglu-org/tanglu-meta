@@ -1,0 +1,209 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Tanglu KDE desktop
+Task-Extended-Description: Tanglu using KDE Plasma Desktop
+Task-Key: tanglu-kde
+Task-Seeds: desktop-common
+
+= Hardware and Architecture Support =
+
+== Architecture-independent ==
+
+Bluetooth:
+
+ * (bluedevil)
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (plasma-widget-networkmanagement)
+ * (mobile-broadband-provider-info)
+
+= GUI infrastructure =
+
+Extra fonts:
+
+ * (ttf-oxygen-font-family)
+
+Input methods:
+
+ * (im-config)
+ * (ibus-qt4)  # ibus support
+ * (plasma-widget-kimpanel)
+
+= Desktop KDE Apps =
+
+We've chosen KDE Software as our desktop user interface of choice
+
+== kde-runtime ==
+
+ * (khelpcenter4)
+ * (phonon-backend-gstreamer)
+
+== kdebase ==
+
+ * kdepasswd
+ * konsole
+ * kde-baseapps-bin # needed to prefer it over Zenity and prevent pulling GNOME deps
+ * (plasma-widget-folderview)
+
+== kde-workspace ==
+
+ * kde-workspace
+ * kde-window-manager
+ * klipper
+ * ksysguard
+ * systemsettings
+ * (ktouchpadenabler)
+
+== kdeadmin ==
+
+# * (system-config-printer-kde)
+
+== kdegraphics ==
+
+ * (kamera)
+ * (gwenview)
+
+== kdemultimedia ==
+
+ * kdemultimedia-kio-plugins
+ * (kmix)
+
+== kdenetwork ==
+
+ * kde-zeroconf
+ * (kde-telepathy)
+ * (krdc)
+
+== kdeutils ==
+
+ * ark
+ * (kwalletmanager)
+ * (kcalc)
+
+== everything else KDE ==
+
+ * (kuser)
+ * (apper) # distro-agnostic package manager
+ * (software-properties-kde)
+ * (polkit-kde-1) # choose it over the GTK+ version
+ * (gtk2-engines-oxygen)
+ * (gtk3-engines-oxygen)
+ * (kdesudo) # simpler and more reliable than kdesu
+ * (plasma-widgets-addons)
+ * (oxygencursors)
+ * (oxygen-icon-theme)
+ * (libqca2-plugin-ossl)
+ * (kde-config-gtk-style) # GTK setup
+ * (plasma-widget-message-indicator)
+ * (kde-telepathy-text-ui)
+ * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
+ * (kscreen)
+ * (kio-mtp)
+
+Accessibility tools:
+
+ * (kaccessible)
+ * (kmag)
+ * (xcursor-themes)
+
+= Other =
+
+ * (cryptsetup) # needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+
+= On top =
+ * sddm
+ * plasma-desktop # Plasma for desktops/laptops
+ * plasma-netbook
+
+== kdebase ==
+
+ * dolphin
+
+== kdepim ==
+
+ * (kaddressbook)
+ * (kdepim-kresources)
+ * (kdepim-runtime)
+ * (kmail)
+ * (knotes)
+ * (kontact)
+ * (korganizer)
+
+== kdeadmin ==
+
+ * (ksystemlog)
+
+== kdegraphics ==
+
+ * (kdegraphics-strigi-analyzer)
+ * ksnapshot
+ * okular
+ * (okular-extra-backends)
+
+== kdemultimedia ==
+
+ * (dragonplayer)
+
+== kdenetwork ==
+
+ * (kppp)
+ * (kdenetwork-filesharing)
+
+== kdesdk ==
+
+ * (kate)
+
+== everything else KDE ==
+
+ * (konversation)
+ * (amarok)         # audio multimediaplayer
+ * (pinentry-qt4) # for SMIME e-mail support
+ * (gnupg-agent) # for SMIME e-mail support
+ * (gpgsm) # SMIME engine
+ * (kde-config-touchpad)
+ * (plasma-widget-menubar)
+ * (kamoso)
+ * (skanlite)
+ * (kde-config-tablet)
+ * (print-manager)
+ * (colord-kde)
+
+Accessibility tools:
+
+ * (kmousetool)
+ * (brltty)
+
+Settings:
+ * tanglu-kde-settings-desktop
+ * (tanglu-kde-settings-active)
+ * (tanglu-kde-settings-netbook)
+ * (tanglu-theme-kde)
+
+= Other Desktop GUI Apps =
+
+ * (firefox) # we use Firefox with KDE patches as default
+ * (libreoffice-style-oxygen) [i386 amd64]
+ * (libreoffice-kde) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-writer) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-calc) [i386 amd64] #powerpc oversized, armel broken
+ * (libreoffice-impress) [i386 amd64] # powerpc oversized, armel broken
+
+= Some games (kdegames) =
+
+# * (kpat)
+  * (kdiamond)
+# * (kmahjongg)
+# * (kmines)
+# * (kreversi)
+# * (ksudoku)
+# * (lskat)
+
+= Some EDU stuff (kdeedu) =
+
+# * (parley)
+# * (ktouch)
+# * (kanagram)
