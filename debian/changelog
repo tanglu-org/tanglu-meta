@@ -1,3 +1,83 @@
+tanglu-meta (3.0.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added about-distro to kde-recommends
+  * Added akregator to kde-recommends
+  * Added apturl-kde to kde-recommends
+  * Added baloo-kf5 to kde
+  * Added baloo-utils to kde-recommends
+  * Added breeze to kde
+  * Added fonts-liberation to kde-recommends
+  * Added frameworkintegration to kde-recommends
+  * Added gnome-packagekit-session to gnome-recommends
+  * Added kde-cli-tools to kde
+  * Added kde-config-gtk-style-preview to kde-recommends
+  * Added kde-config-sddm to kde-recommends
+  * Added khelpcenter to kde
+  * Added khotkeys to kde
+  * Added kimageformat-plugins to kde-recommends
+  * Added kinfocenter to kde
+  * Added kio to kde
+  * Added kio-extras to kde
+  * Added kleopatra to kde-recommends
+  * Added ksshaskpass to kde-recommends
+  * Added kwin to kde
+  * Added kwin-addons to kde-recommends
+  * Added kwrited to kde
+  * Added milou to kde-recommends
+  * Added oxygen-sounds to kde
+  * Added partitionmanager to kde-recommends
+  * Added phonon4qt5-backend-gstreamer to kde-recommends
+  * Added plasma-dataengines-addons to kde-recommends
+  * Added plasma-nm to kde-recommends
+  * Added plasma-runners-addons to kde-recommends
+  * Added plasma-wallpapers-addons to kde-recommends
+  * Added polkit-kde-agent-1 to kde-recommends
+  * Added powerdevil to kde
+  * Added qt5-image-formats-plugins to kde-recommends
+  * Added sddm-theme-breeze to kde
+  * Added udisks2 to kde-recommends
+  * Added upower to kde-recommends
+  * Added user-manager to kde-recommends
+  * Removed apper from kde-recommends
+  * Removed brltty from kde-recommends
+  * Removed colord-kde from kde-recommends
+  * Removed dolphin from kde
+  * Removed gnome-packagekit from gnome
+  * Removed kaccessible from kde-recommends
+  * Removed kamera from kde-recommends
+  * Removed kamoso from kde-recommends
+  * Removed kde-baseapps-bin from kde
+  * Removed kde-telepathy-text-ui from kde-recommends
+  * Removed kde-window-manager from kde
+  * Removed kde-workspace from kde
+  * Removed kde-zeroconf from kde
+  * Removed kdemultimedia-kio-plugins from kde
+  * Removed kdenetwork-filesharing from kde-recommends
+  * Removed kdepasswd from kde
+  * Removed khelpcenter4 from kde-recommends
+  * Removed klipper from kde
+  * Removed kmag from kde-recommends
+  * Removed kmousetool from kde-recommends
+  * Removed kppp from kde-recommends
+  * Removed ktouchpadenabler from kde-recommends
+  * Removed kuser from kde-recommends
+  * Removed libqca2-plugin-ossl from kde-recommends
+  * Removed oxygencursors from kde-recommends
+  * Removed plasma-netbook from kde
+  * Removed plasma-widget-folderview from kde-recommends
+  * Removed plasma-widget-menubar from kde-recommends
+  * Removed plasma-widget-message-indicator from kde-recommends
+  * Removed plasma-widget-networkmanagement from kde-recommends
+  * Removed polkit-kde-1 from kde-recommends
+  * Removed sddm from kde
+  * Removed skanlite from kde-recommends
+  * Removed xcursor-themes from kde-recommends
+  * Moved konsole to kde-recommends
+  * Moved software-properties-kde to kde
+
+ -- Matthias Klumpp <mak@debian.org>  Sa, 14 Mar 2015 10:14:20 +0100
+
 tanglu-meta (0.8.14) staging; urgency=medium
 
   * Refreshed dependencies
