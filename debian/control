@@ -41,9 +41,9 @@ Package: tanglu-gnome
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Description: Tanglu GNOME-3 desktop system
+Description: Tanglu GNOME 3 desktop system
  This package depends on all of the packages in the
- Tanglu GNOME-3 desktop system
+ Tanglu GNOME 3 desktop system
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
@@ -52,9 +52,9 @@ Package: tanglu-kde
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Description: Tanglu KDE4 desktop system
+Description: Tanglu KDE Plasma desktop system
  This package depends on all of the packages in the
- Tanglu KDE4 desktop system
+ Tanglu KDE Plasma desktop system
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
