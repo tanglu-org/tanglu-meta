@@ -2,7 +2,7 @@ Source: tanglu-meta
 Section: metapackages
 Priority: optional
 Maintainer: Tanglu Developers <tanglu-devel-discuss@lists.tanglu.org>
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 8), germinate (>= 1.18)
 
 Package: tanglu-minimal
