@@ -53,6 +53,7 @@ ibus-table
 im-config
 inputattach
 laptop-detect
+libavcodec-extra-56
 libgail-common
 libnss-mdns
 libpam-gnome-keyring

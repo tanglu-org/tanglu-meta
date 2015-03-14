@@ -6,6 +6,7 @@ baloo-kf5
 bc
 breeze
 ca-certificates
+dolphin
 fonts-dejavu-core
 fonts-freefont-ttf
 foomatic-db-compressed-ppds
@@ -19,6 +20,7 @@ khotkeys
 kinfocenter
 kio
 kio-extras
+kmenuedit
 ksnapshot
 ksysguard
 kwin
