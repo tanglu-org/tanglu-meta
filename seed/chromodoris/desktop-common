@@ -110,7 +110,7 @@ Fonts:
 
 Media codecs:
 
- * (libavcodec-extra-55)
+ * (libavcodec-extra-56)
  * (gstreamer1.0-libav)
  * (gstreamer1.0-plugins-good)
  * (gstreamer1.0-plugins-bad)

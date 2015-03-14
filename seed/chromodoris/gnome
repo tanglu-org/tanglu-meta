@@ -84,7 +84,6 @@ User:
  * (rhythmbox)
  * (rhythmbox-plugins)
  * (totem)
- * (totem-mozilla)
  * (vino) # vnc server
 
 Games: We only ship a few by default.

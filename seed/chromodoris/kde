@@ -30,7 +30,6 @@ Input methods:
 
  * (phonon-backend-gstreamer)
  * (phonon4qt5-backend-gstreamer)
- * (gstreamer1.0-pulseaudio)
  * (frameworkintegration)
  * (kimageformat-plugins)
  * (qt5-image-formats-plugins)
@@ -53,7 +52,6 @@ Input methods:
  * plasma-desktop
  * powerdevil
  * systemsettings
- * (plasma-widgets-addons)
  * (kde-config-gtk-style) # GTK setup
  * (kde-config-gtk-style-preview) # brings in the gtk libraries
  * (muon-discover) # not yet in Tanglu
@@ -112,13 +110,11 @@ Input methods:
  * (apturl-kde)
  * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
- * (kde-config-systemd)
  * (pam-kwallet)
  * (gtk2-engines-oxygen)
  * (gtk3-engines-oxygen)
  * (konversation)
  * (amarok)
- * (ktorrent)
  * (pinentry-qt4) # for SMIME e-mail support
  * (gnupg-agent) # for SMIME e-mail support
  * (gpgsm) # SMIME engine
