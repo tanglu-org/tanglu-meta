@@ -1,3 +1,13 @@
+tanglu-meta (3.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added muon-discover to kde-recommends
+  * Added muon-notifier to kde-recommends
+  * Removed libreoffice-presentation-minimizer from gnome-recommends
+  * Introduced fvwm-nightshade as inofficial new seed
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 24 May 2015 22:38:34 +0200
+
 tanglu-meta (3.0.2) staging; urgency=medium
 
   * Refreshed dependencies
