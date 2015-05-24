@@ -33,58 +33,52 @@ Base:
  * lightdm                          # Login manager
  * compton                          # composite manager
 
-fvwm-nightshade (simulates the package until it is available in the archive):
  * fvwm                             # Window manager
- * conky                            # For clock and cpu applets
- * cpufrequtils                     # Control cpu states
  * feh                              # Wallpaper support
- * gksu                             # Graphical superuser access
- * gtk2-engines-murrine             # Theme engine needed by FNS Gtk themes
- * gtk2-engines-pixbuf              # Theme engine needed by FNS Gtk themes
- * imagemagick                      # convert and display support
  * librsvg2-bin                     # SVG support
  * pcmanfm                          # File manager with mount support (runs as daemon)
  * python-xdg                       # Library to access freedesktop.org standards
  * stalonetray                      # Systray
- * xscreensaver                     # Locking and screen saving
+ * (xscreensaver)                   # Locking and screen saving
+ * (conky)                          # For clock and cpu applets
+ * (cpufrequtils)                   # Control cpu states
 
 Systemtray Applets:
  * xfce4-power-manager              # The Xfce 4 Power manager
- * volumeicon-alsa                  # Volume control in systray
- * clipit                           # clipboard for systray
+ * (volumeicon-alsa)                # Volume control in systray
+ * (clipit)                         # clipboard for systray
 
 Configuration:
  * lxappearance                     # Gtk2/3 theme chooser
  * lxinput                          # Mouse-/keyboard config tool
 # * gpointing-device-settings        # touchpad config  <= Debian Bug #725593
- * system-config-printer            # Printer manager
+ * (system-config-printer)          # Printer manager
  * gnome-system-tools               # users-admin, etc.
  * font-manager                     # Font configurator
 
 Administration:
- * synaptic                         # Package manager ...
- * gdebi                            # User friendly Package installer
+ * (synaptic)                       # Package manager ...
+ * (gdebi)                          # User friendly Package installer
 
 == User ==
 
 Internet:
- * midori                           # Web browser
- * balsa                            # Email client
- * xchat                            # Instant messaging client
- * filezilla                        # FTP/FTPS/SFTP client
+ * (midori)                         # Web browser
+ * (balsa)                          # Email client
+ * (xchat)                          # Instant messaging client
 
 Multimedia:
- * gmusicbrowser                    # Music player
- * mplayer2                         # media player
- * guvcview                         # UVC Viewer
+ * (gmusicbrowser)                  # Music player
+ * (mplayer2)                       # media player
+ * (guvcview)                       # UVC Viewer
 
 Security:
- * gpa                              # GNU Privacy Assistant - only in Aequorea available
- * gufw                             # Firewall
+ * (gpa)                            # GNU Privacy Assistant
+ * (gufw)                           # Firewall
 
 Text:
  * mousepad                         # text editor and viewer
- * xpdf                             # PDF viewer
+ * (xpdf)                           # PDF viewer
 
 Office: (80 MB)
 # * abiword                          # Word processor
@@ -97,14 +91,14 @@ Tools:
 
 Accessories:
  * galculator                       # calculator
- * mypaint                          # Image Manipulation
- * gpicview                         # image viewer
- * simple-scan                      # scan tool
- * xfburn                           # CD/DVD burn program
+ * (mypaint)                        # Image Manipulation
+ * (gpicview)                       # image viewer
+ * (simple-scan)                    # scan tool
+ * (xfburn)                         # CD/DVD burn program
  * hardinfo                         # Displays system information
 
 Games:
- * ace-of-penguins                  # A set of games like under win :P
+ * (ace-of-penguins)                # A set of games like under win :P
 
 Themes:
 # * dmz-cursor-theme

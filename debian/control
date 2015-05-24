@@ -20,8 +20,8 @@ Description: Minimal core of Tanglu
   - Install packages
   - Perform basic diagnostics
  .
- It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
 
 Package: tanglu-standard
 Priority: standard
@@ -34,8 +34,8 @@ Description: Tanglu standard system
  This set of packages provides a comfortable command-line Unix-like
  environment.
  .
- It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
 
 Package: tanglu-gnome
 Architecture: any
@@ -45,8 +45,8 @@ Description: Tanglu GNOME 3 desktop system
  This package depends on all of the packages in the
  Tanglu GNOME 3 desktop system
  .
- It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
 
 Package: tanglu-kde
 Architecture: any
@@ -56,5 +56,16 @@ Description: Tanglu KDE Plasma desktop system
  This package depends on all of the packages in the
  Tanglu KDE Plasma desktop system
  .
- It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
+
+Package: tanglu-fvwm-nightshade
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Tanglu FVWM-Nightshade desktop system
+ This package depends on all of the packages in the
+ Tanglu FVWM-Nightshade desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
