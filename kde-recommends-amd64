@@ -29,6 +29,7 @@ fonts-tibetan-machine
 fonts-wqy-microhei
 frameworkintegration
 genisoimage
+gnome-themes-standard
 gnupg-agent
 gpgsm
 grub-theme-tanglu
@@ -39,8 +40,6 @@ gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base-apps
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
-gtk2-engines-oxygen
-gtk3-engines-oxygen
 gwenview
 hplip
 ibus-qt4
