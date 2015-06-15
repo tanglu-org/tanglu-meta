@@ -131,6 +131,7 @@ Input methods:
  * (libreoffice-calc)
  * (libreoffice-impress)
  * (firefox) # we use Firefox with KDE patches as default
+ * (kmozillahelper) # Helper KDE dialogs for Firefox
 
 = Other =
 
