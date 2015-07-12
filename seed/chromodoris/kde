@@ -144,7 +144,5 @@ Input methods:
  * sddm-theme-breeze
 
 Settings:
- * tanglu-kde-settings-desktop
- * (tanglu-kde-settings-active)
- * (tanglu-kde-settings-netbook)
+ * tanglu-kde-settings
  * (tanglu-theme-kde)
