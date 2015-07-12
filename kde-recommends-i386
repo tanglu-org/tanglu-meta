@@ -115,8 +115,6 @@ pulseaudio-module-bluetooth
 pulseaudio-module-x11
 python-qt4-dbus
 qt5-image-formats-plugins
-tanglu-kde-settings-active
-tanglu-kde-settings-netbook
 tanglu-theme-kde
 ttf-oxygen-font-family
 udisks2

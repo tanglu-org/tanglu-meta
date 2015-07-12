@@ -1,3 +1,13 @@
+tanglu-meta (3.4) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added tanglu-kde-settings to kde
+  * Removed tanglu-kde-settings-active from kde-recommends
+  * Removed tanglu-kde-settings-desktop from kde
+  * Removed tanglu-kde-settings-netbook from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 12 Jul 2015 16:24:06 +0200
+
 tanglu-meta (3.3) staging; urgency=medium
 
   * Refreshed dependencies
