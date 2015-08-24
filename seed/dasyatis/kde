@@ -77,14 +77,11 @@ Input methods:
  * (konsole)
  * (gwenview)
  * (kmix)
- * (krdc)
  * ark
  * (kwalletmanager)
  * (kcalc)
  * dolphin
  * (ksystemlog)
- * (akregator)
- * (kaddressbook)
  * (kdepim-kresources)
  * (kdepim-runtime)
  * (kleopatra)
@@ -96,7 +93,6 @@ Input methods:
  * okular
  * (kdegraphics-strigi-analyzer)
  * (okular-extra-backends)
- * (dragonplayer)
  * (kdenetwork-filesharing)
  * (kate)
  * (print-manager)
@@ -112,8 +108,8 @@ Input methods:
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
  * (pam-kwallet)
  * (gnome-themes-standard) # Meh... But we need a GTK+3/GTK+2 theme for e.g. Firefox
- * (konversation)
- * (amarok)
+ * (clementine)
+ * (vlc)
  * (pinentry-qt4) # for SMIME e-mail support
  * (gnupg-agent) # for SMIME e-mail support
  * (gpgsm) # SMIME engine
