@@ -27,10 +27,10 @@ on a modern Unix-like system.
  * bzip2
  * console-setup           # https://blueprints.launchpad.net/ubuntu/+spec/sane-installer-keyboard
  * gnupg                   # introduce security from the very base
- * initramfs-tools         # needed for the kernel
+ * dracut                  # initramfs generator
  * less
  * lsb-release
- * sudo                    # LaMontJones
+ * sudo
  * tanglu-archive-keyring  # for authenticated package downloads
  * udev
  * vim-tiny
