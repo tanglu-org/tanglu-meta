@@ -33,7 +33,6 @@ libnotify-bin
 libpam-systemd
 librsvg2-bin
 libsasl2-modules
-libxp6
 lightdm
 lxappearance
 lxinput

@@ -28,7 +28,6 @@ kwrited
 libnotify-bin
 libpam-systemd
 libsasl2-modules
-libxp6
 okular
 openprinting-ppds
 oxygen-sounds

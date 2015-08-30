@@ -39,7 +39,6 @@ libatk-adaptor
 libnotify-bin
 libpam-systemd
 libsasl2-modules
-libxp6
 nautilus
 openprinting-ppds
 packagekit

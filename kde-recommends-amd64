@@ -1,7 +1,5 @@
 about-distro
 acpi-support
-akregator
-amarok
 apturl-kde
 avahi-autoipd
 avahi-daemon
@@ -10,11 +8,11 @@ bluedevil
 bluez
 bluez-cups
 bluez-obexd
+clementine
 cryptsetup
 cups
 cups-bsd
 cups-client
-dragonplayer
 firefox
 fonts-kacst-one
 fonts-lao
@@ -45,7 +43,6 @@ hplip
 ibus-qt4
 im-config
 inputattach
-kaddressbook
 kate
 kcalc
 kde-config-gtk-style
@@ -66,9 +63,7 @@ kmozillahelper
 knotes
 konsole
 kontact
-konversation
 korganizer
-krdc
 kscreen
 ksshaskpass
 ksystemlog
@@ -119,4 +114,5 @@ ttf-oxygen-font-family
 udisks2
 upower
 user-manager
+vlc
 xdg-utils
