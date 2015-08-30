@@ -59,7 +59,6 @@ Base:
  * system-config-printer
  * gnome-menus
  * gnome-session
- * (gnome-packagekit-session)
  * (gnome-software)
 
 User:
