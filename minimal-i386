@@ -6,9 +6,9 @@ console-setup
 dbus
 debconf
 debconf-i18n
-dracut
 gnupg
 ifupdown
+initramfs-tools
 iproute2
 iputils-ping
 isc-dhcp-client

@@ -23,7 +23,8 @@ kio-extras
 kmenuedit
 ksnapshot
 ksysguard
-kwin
+kwin-wayland
+kwin-x11
 kwrited
 libnotify-bin
 libpam-systemd
