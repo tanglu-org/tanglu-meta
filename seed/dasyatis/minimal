@@ -27,7 +27,7 @@ on a modern Unix-like system.
  * bzip2
  * console-setup           # https://blueprints.launchpad.net/ubuntu/+spec/sane-installer-keyboard
  * gnupg                   # introduce security from the very base
- * dracut                  # initramfs generator
+ * initramfs-tools         # initramfs generator
  * less
  * lsb-release
  * sudo
