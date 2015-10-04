@@ -46,7 +46,8 @@ Input methods:
  * kio-extras
  * kmenuedit
  * ksysguard
- * kwin
+ * kwin-wayland
+ * kwin-x11
  * kwrited
  * oxygen-sounds
  * plasma-desktop
