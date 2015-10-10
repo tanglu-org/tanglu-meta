@@ -44,7 +44,7 @@ Base:
  * (cpufrequtils)                   # Control cpu states
 
 Systemtray Applets:
- * xfce4-power-manager              # The Xfce 4 Power manager
+ * (fdpowermon)                     # battery applet in systray
  * (volumeicon-alsa)                # Volume control in systray
  * (clipit)                         # clipboard for systray
 
@@ -55,6 +55,7 @@ Configuration:
  * (system-config-printer)          # Printer manager
  * gnome-system-tools               # users-admin, etc.
  * font-manager                     # Font configurator
+ * pavucontrol                      # sound control gui
 
 Administration:
  * (synaptic)                       # Package manager ...
@@ -69,7 +70,7 @@ Internet:
 
 Multimedia:
  * (gmusicbrowser)                  # Music player
- * (mplayer2)                       # media player
+ * (mplayer)                        # media player
  * (guvcview)                       # UVC Viewer
 
 Security:
@@ -87,7 +88,7 @@ Office: (80 MB)
 Tools:
  * xarchiver                        # Frontend for archive tools
  * lxterminal                       # 2nd terminal to xterm
- * gmrun                            # Comfortable launcher
+ * grun                             # Comfortable launcher
 
 Accessories:
  * galculator                       # calculator
@@ -103,7 +104,7 @@ Games:
 Themes:
 # * dmz-cursor-theme
  * gnome-themes-standard
- * tango-icon-theme
+ * faenza-icon-theme
 # * tanglu-theme-gnome
 
 Accessibility tools:
