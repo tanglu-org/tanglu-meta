@@ -99,7 +99,6 @@ These packages are included for size guidance until we have Tanglu-specific pack
  * dmz-cursor-theme
  * gnome-themes-standard
  * (tanglu-theme-gnome)
- * (tanglu-gnome-settings)
 
 Accessibility tools:
 
@@ -122,7 +121,6 @@ Accessibility tools:
  * (libreoffice-math) [!powerpc !armhf]
  * (libreoffice-ogltrans) [!powerpc !armhf]
  * (libreoffice-pdfimport) [!powerpc !armhf !armel]
- * (libreoffice-presentation-minimizer) [!powerpc !armhf !armel]
  * (simple-scan)
  * evince
  * (gnome-screensaver) # recommends to allow for xscreensaver to be used
@@ -139,7 +137,7 @@ Settings:
 
 = Documentation =
 
- * doc-base			# integrates with scrollkeeper
+ * doc-base    # integrates with scrollkeeper
 
 = Development =
 

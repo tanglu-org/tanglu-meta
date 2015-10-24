@@ -110,7 +110,7 @@ Fonts:
 
 Media codecs:
 
- * (libavcodec-extra-56)
+ * (libavcodec-extra)
  * (gstreamer1.0-libav)
  * (gstreamer1.0-plugins-good)
  * (gstreamer1.0-plugins-bad)
@@ -120,7 +120,6 @@ Media codecs:
 = Other =
 
  * anacron # generally appropriate for desktops
- * libxp6 # required for some third party apps. See #21953
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
 
 = Boot =

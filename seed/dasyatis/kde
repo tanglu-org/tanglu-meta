@@ -91,7 +91,6 @@ Input methods:
  * ksnapshot
  * okular
  * (okular-extra-backends)
- * (kdenetwork-filesharing)
  * (kate)
  * (print-manager)
 
@@ -104,18 +103,17 @@ Input methods:
  * (apturl-kde)
  * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
- * (pam-kwallet)
+ * (libpam-kwallet5)
  * (gnome-themes-standard) # Meh... But we need a GTK+3/GTK+2 theme for e.g. Firefox
  * (clementine)
  * (vlc)
- * (pinentry-qt4) # for SMIME e-mail support
- * (gnupg-agent) # for SMIME e-mail support
- * (gpgsm) # SMIME engine
- * (kde-config-tablet)
  * (about-distro)
  * (kio-mtp)
- * (kdeconnect-plasma)
- * (kdesudo) # simpler and more reliable than kdesu
+ * (kdeconnect)
+ * kdesudo        # simpler and more reliable than kdesu
+ * (pinentry-qt4) # for SMIME e-mail support
+ * (gnupg-agent)  # for SMIME e-mail support
+ * (gpgsm)        # SMIME engine
 
 == Other software ==
 
