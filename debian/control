@@ -59,6 +59,9 @@ Description: Tanglu KDE Plasma desktop system
  It is also used to help ensure proper upgrades, so it is recommended to
  not remove this package.
 
+####
+# Experimental
+
 Package: tanglu-fvwm-nightshade
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
