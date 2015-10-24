@@ -11,6 +11,7 @@ cpufrequtils
 cups
 cups-bsd
 cups-client
+fdpowermon
 fonts-kacst-one
 fonts-lao
 fonts-linuxlibertine
@@ -39,10 +40,10 @@ guvcview
 hplip
 inputattach
 laptop-detect
-libavcodec-extra-56
+libavcodec-extra
 libnss-mdns
 midori
-mplayer2
+mplayer
 mypaint
 pcmciautils
 policykit-desktop-privileges

@@ -15,6 +15,7 @@ ghostscript-x
 gstreamer1.0-alsa
 gstreamer1.0-pulseaudio
 kde-cli-tools
+kdesudo
 khelpcenter
 khotkeys
 kinfocenter

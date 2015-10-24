@@ -1,3 +1,41 @@
+tanglu-meta (4.0) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added faenza-icon-theme to fvwm-nightshade
+  * Added fdpowermon to fvwm-nightshade-recommends
+  * Added four-in-a-row to gnome-recommends
+  * Added gnome-calendar to gnome-recommends
+  * Added gnome-clocks to gnome-recommends
+  * Added gnome-music to gnome-recommends
+  * Added gnome-nibbles to gnome-recommends
+  * Added grun to fvwm-nightshade
+  * Added mplayer to fvwm-nightshade-recommends
+  * Added pavucontrol to fvwm-nightshade
+  * Removed aisleriot from gnome-recommends
+  * Removed gmrun from fvwm-nightshade
+  * Removed gnect from gnome-recommends
+  * Removed gnome-documents from gnome
+  * Removed gnomine from gnome-recommends
+  * Removed kdegraphics-strigi-analyzer from kde-recommends
+  * Removed kmix from kde-recommends
+  * Removed knotes from kde-recommends
+  * Removed libavcodec-extra-56 from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed libgail-common from gnome-recommends
+  * Removed mplayer2 from fvwm-nightshade-recommends
+  * Removed tango-icon-theme from fvwm-nightshade
+  * Removed xfce4-power-manager from fvwm-nightshade
+  * Moved gnome-calculator to gnome-recommends
+  * Moved gnome-sushi to gnome-recommends
+  * Added kdeconnect to kde-recommends
+  * Added libavcodec-extra to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added libpam-kwallet5 to kde-recommends
+  * Moved kdesudo to kde
+  * Moved tanglu-gnome-settings to gnome
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 25 Oct 2015 10:52:18 +0200
+
 tanglu-meta (3.92) staging; urgency=medium
 
   * Refreshed dependencies

@@ -16,9 +16,7 @@ foomatic-filters
 gdm3
 gedit
 ghostscript-x
-gnome-calculator
 gnome-control-center
-gnome-documents
 gnome-font-viewer
 gnome-menus
 gnome-power-manager
@@ -27,7 +25,6 @@ gnome-session
 gnome-session-canberra
 gnome-shell
 gnome-shell-extensions
-gnome-sushi
 gnome-system-log
 gnome-system-monitor
 gnome-themes-standard
@@ -48,6 +45,7 @@ seahorse
 software-properties-gtk
 ssh-askpass-gnome
 system-config-printer
+tanglu-gnome-settings
 tanglu-standard
 unzip
 wireless-tools
