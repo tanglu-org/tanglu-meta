@@ -71,34 +71,31 @@ Input methods:
  * (kde-config-sddm)
  * (user-manager)
  * (kde-config-gtk-style) # GTK setup
- * (kde-config-gtk-style-preview) # brings in the gtk libraries
+ * (kde-config-gtk-style-preview) # pulls in the GTK+ libraries
 
 = Desktop KDE Apps =
 
+ * ark
+ * dolphin
  * (konsole)
  * (gwenview)
- * (kmix)
- * ark
  * (kwalletmanager)
  * (kcalc)
- * dolphin
  * (ksystemlog)
  * (kdepim-kresources)
  * (kdepim-runtime)
  * (kleopatra)
  * (kmail)
- * (knotes)
  * (kontact)
  * (korganizer)
  * ksnapshot
  * okular
- * (kdegraphics-strigi-analyzer)
  * (okular-extra-backends)
  * (kdenetwork-filesharing)
  * (kate)
  * (print-manager)
 
-== Other KDE Software ==
+== Other Software ==
 
  * (baloo-utils) # kdelibs4 kioslaves
  * (kde-telepathy)

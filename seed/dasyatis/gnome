@@ -64,32 +64,33 @@ Base:
 User:
  * eog
  * file-roller
+ * gedit
  * (empathy)
  * (telepathy-idle)        # basic IRC support for empathy
- * gnome-calculator
- * gedit
  * software-properties-gtk # default GUI sources.list editor / extra drivers
- * gnome-documents
  * seahorse
  * (libpam-gnome-keyring)
- * (gnome-terminal)
- * (baobab)
- * gnome-sushi
  * gnome-screenshot
  * gnome-system-log
  * gnome-font-viewer
+ * (gnome-calculator)
+ * (gnome-calendar)
+ * (gnome-clocks)
+ * (gnome-music)
  * (firefox)
  * (nautilus-share)
  * (rhythmbox)
  * (rhythmbox-plugins)
  * (totem)
  * (vino) # vnc server
+ * (gnome-sushi)
+ * (gnome-terminal)
+ * (baobab)
 
 Games: We only ship a few by default.
- * (aisleriot)
- * (gnomine)
+ * (gnome-nibbles)
  * (lightsoff)
- * (gnect)
+ * (four-in-a-row)
 
 Themes: we will ship only the very best looking themes ;-)
 These packages are included for size guidance until we have Tanglu-specific packages.
@@ -110,7 +111,6 @@ Accessibility tools:
  * (mousetweaks)
  * at-spi2-core
  * libatk-adaptor
- * (libgail-common)
 
 = Other Desktop GUI Apps =
 
