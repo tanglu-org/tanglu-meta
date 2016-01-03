@@ -100,7 +100,6 @@ Input methods:
  * (kde-telepathy)
  * software-properties-kde
  * (oxygen-icon-theme)
- * (apturl-kde)
  * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
  * (libpam-kwallet5)
