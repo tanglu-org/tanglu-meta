@@ -1,3 +1,11 @@
+tanglu-meta (4.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Pre-depend on usrmerge in tanglu-minimal
+  * Removed apturl-kde from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 03 Jan 2016 22:50:56 +0100
+
 tanglu-meta (4.0) staging; urgency=medium
 
   * Refreshed dependencies
