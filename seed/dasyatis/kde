@@ -16,11 +16,6 @@ Basic network services and Windows integration.
 
 = GUI infrastructure =
 
-Extra fonts:
-
- * (ttf-oxygen-font-family)
- * (fonts-liberation)
-
 Input methods:
 
  * (im-config)
@@ -100,7 +95,6 @@ Input methods:
  * (kde-telepathy)
  * software-properties-kde
  * (oxygen-icon-theme)
- * (partitionmanager)
  * (python-qt4-dbus) # So python-dbus doesn't pull in python-gi
  * (libpam-kwallet5)
  * (gnome-themes-standard) # Meh... But we need a GTK+3/GTK+2 theme for e.g. Firefox
@@ -116,17 +110,13 @@ Input methods:
 
 == Other software ==
 
- * (libreoffice-style-oxygen)
+ * (libreoffice-style-breeze)
  * (libreoffice-kde)
  * (libreoffice-writer)
  * (libreoffice-calc)
  * (libreoffice-impress)
  * (firefox) # we use Firefox with KDE patches as default
  * (kmozillahelper) # Helper KDE dialogs for Firefox
-
-= Other =
-
- * (cryptsetup) # needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
 
 == Supporting bits ==
 

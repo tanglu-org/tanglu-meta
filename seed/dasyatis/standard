@@ -55,8 +55,8 @@ These provide various networking services, all should be configured in a client-
  * (pppconfig)
  * (pppoeconf)
  * (openssh-client) # ColinWatson
- * rsync          # would be just client but they are the same binary apparently
- * wget           # FabioMassimoDiNitto
+ * rsync            # would be just client but they are the same binary apparently
+ * wget             # FabioMassimoDiNitto
 
 = Debugging and Diagnostics =
 
@@ -87,5 +87,4 @@ These are used for debugging problems or examining the system.
 = Other =
 
  * acpi-support-base   # Required for power/reset button functionality
- * popularity-contest
-
+ * (popularity-contest)

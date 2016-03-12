@@ -97,6 +97,7 @@ Fonts:
 
  * fonts-dejavu-core
  * fonts-noto-hinted
+ * (fonts-hack-ttf)
  * (fonts-noto-cjk)
  * (fonts-linuxlibertine)
  * (fonts-arkpandora)
@@ -112,7 +113,8 @@ Media codecs:
 
 = Other =
 
- * anacron # generally appropriate for desktops
+ * anacron      # generally appropriate for desktops
+ * (cryptsetup) # needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
 
 = Boot =
