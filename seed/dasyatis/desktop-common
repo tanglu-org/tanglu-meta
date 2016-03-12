@@ -6,10 +6,10 @@ particular flavour of desktop environment (e.g. GNOME, KDE, or XFCE).
 
 == Architecture-independent ==
 
- * alsa-base # needed for proper hardware detection (hotplug/blacklist.d, modprobe.d)
- * alsa-utils           # basic audio support and mixer level handling
- * (pcmciautils)        # PCMCIA support for >= 2.6.13-rc1 kernels
- * (inputattach)        # needed for serial mice
+ * alsa-base        # needed for proper hardware detection (hotplug/blacklist.d, modprobe.d)
+ * alsa-utils       # basic audio support and mixer level handling
+ * (pcmciautils)    # PCMCIA support for >= 2.6.13-rc1 kernels
+ * (inputattach)    # needed for serial mice
 
 Power management:
 
@@ -96,17 +96,10 @@ Packages used for X preconfiguration are just Recommends; removing them after in
 Fonts:
 
  * fonts-dejavu-core
- * fonts-freefont-ttf
+ * fonts-noto-hinted
+ * (fonts-noto-cjk)
  * (fonts-linuxlibertine)
- * (fonts-kacst-one)
- * (fonts-thai-tlwg)
- * (fonts-lao)
- * (fonts-sil-padauk)
- * (fonts-tibetan-machine)
- * (fonts-sil-abyssinica)
- * (fonts-lklug-sinhala)
- * (fonts-wqy-microhei)
- * (fonts-nanum)
+ * (fonts-arkpandora)
 
 Media codecs:
 
