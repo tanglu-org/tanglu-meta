@@ -10,7 +10,7 @@ eog
 evince
 file-roller
 fonts-dejavu-core
-fonts-freefont-ttf
+fonts-noto-hinted
 foomatic-db-compressed-ppds
 foomatic-filters
 gdm3

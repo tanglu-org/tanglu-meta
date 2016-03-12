@@ -1,3 +1,43 @@
+tanglu-meta (4.2) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added cryptsetup to fvwm-nightshade-recommends, gnome-recommends
+  * Added fonts-arkpandora to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added fonts-hack-ttf to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added fonts-noto-cjk to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added fonts-noto-hinted to fvwm-nightshade, gnome, kde
+  * Added libreoffice-style-breeze to kde-recommends
+  * Removed fonts-freefont-ttf from fvwm-nightshade, gnome, kde
+  * Removed fonts-kacst-one from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-lao from fvwm-nightshade-recommends, gnome-recommends,
+    kde-recommends
+  * Removed fonts-liberation from kde-recommends
+  * Removed fonts-lklug-sinhala from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-nanum from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-sil-abyssinica from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-sil-padauk from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-thai-tlwg from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-tibetan-machine from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-wqy-microhei from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed libreoffice-style-oxygen from kde-recommends
+  * Removed partitionmanager from kde-recommends
+  * Removed ttf-oxygen-font-family from kde-recommends
+  * Removed xchat from fvwm-nightshade-recommends
+  * Moved popularity-contest to standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org> Sat, 12 Mar 2016 20:22:28 +0100
+
 tanglu-meta (4.1) staging; urgency=medium
 
   * Refreshed dependencies

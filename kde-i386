@@ -8,7 +8,7 @@ breeze
 ca-certificates
 dolphin
 fonts-dejavu-core
-fonts-freefont-ttf
+fonts-noto-hinted
 foomatic-db-compressed-ppds
 foomatic-filters
 ghostscript-x

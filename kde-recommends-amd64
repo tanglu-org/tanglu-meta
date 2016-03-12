@@ -13,17 +13,10 @@ cups
 cups-bsd
 cups-client
 firefox
-fonts-kacst-one
-fonts-lao
-fonts-liberation
+fonts-arkpandora
+fonts-hack-ttf
 fonts-linuxlibertine
-fonts-lklug-sinhala
-fonts-nanum
-fonts-sil-abyssinica
-fonts-sil-padauk
-fonts-thai-tlwg
-fonts-tibetan-machine
-fonts-wqy-microhei
+fonts-noto-cjk
 frameworkintegration
 genisoimage
 gnome-themes-standard
@@ -72,7 +65,7 @@ libpam-kwallet5
 libreoffice-calc
 libreoffice-impress
 libreoffice-kde
-libreoffice-style-oxygen
+libreoffice-style-breeze
 libreoffice-writer
 milou
 mobile-broadband-provider-info
@@ -80,7 +73,6 @@ muon-discover
 muon-notifier
 okular-extra-backends
 oxygen-icon-theme
-partitionmanager
 pcmciautils
 phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
@@ -107,7 +99,6 @@ pulseaudio-module-x11
 python-qt4-dbus
 qt5-image-formats-plugins
 tanglu-theme-kde
-ttf-oxygen-font-family
 udisks2
 upower
 user-manager
