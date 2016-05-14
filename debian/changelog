@@ -1,3 +1,11 @@
+tanglu-meta (4.2.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Removed grub2 from fvwm-nightshade-recommends, gnome-recommends, kde-
+    recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 14 May 2016 16:38:50 +0200
+
 tanglu-meta (4.2) staging; urgency=medium
 
   * Refreshed dependencies
@@ -36,7 +44,7 @@ tanglu-meta (4.2) staging; urgency=medium
   * Removed xchat from fvwm-nightshade-recommends
   * Moved popularity-contest to standard-recommends
 
- -- Matthias Klumpp <mak@debian.org> Sat, 12 Mar 2016 20:22:28 +0100
+ -- Matthias Klumpp <mak@debian.org>  Sat, 12 Mar 2016 20:22:28 +0100
 
 tanglu-meta (4.1) staging; urgency=medium
 
