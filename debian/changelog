@@ -1,3 +1,21 @@
+tanglu-meta (4.2.2) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added fvwm-nightshade to fvwm-nightshade
+  * Added kde-spectacle to kde
+  * Added plasma-discover to kde-recommends
+  * Added smuxi to fvwm-nightshade-recommends
+  * Added vlc to fvwm-nightshade-recommends
+  * Removed about-distro from kde-recommends
+  * Removed ace-of-penguins from fvwm-nightshade-recommends
+  * Removed ksnapshot from kde
+  * Removed mplayer from fvwm-nightshade-recommends
+  * Removed muon-discover from kde-recommends
+  * Removed muon-notifier from kde-recommends
+  * Removed plasma-widget-kimpanel from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 08 Oct 2016 18:21:04 +0200
+
 tanglu-meta (4.2.1) staging; urgency=medium
 
   * Refreshed dependencies

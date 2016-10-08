@@ -1,4 +1,3 @@
-about-distro
 acpi-support
 avahi-autoipd
 avahi-daemon
@@ -68,8 +67,6 @@ libreoffice-style-breeze
 libreoffice-writer
 milou
 mobile-broadband-provider-info
-muon-discover
-muon-notifier
 okular-extra-backends
 oxygen-icon-theme
 pcmciautils
@@ -77,10 +74,10 @@ phonon-backend-gstreamer
 phonon4qt5-backend-gstreamer
 pinentry-qt4
 plasma-dataengines-addons
+plasma-discover
 plasma-nm
 plasma-runners-addons
 plasma-wallpapers-addons
-plasma-widget-kimpanel
 plasma-widgets-addons
 policykit-desktop-privileges
 polkit-kde-agent-1

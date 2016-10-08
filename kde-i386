@@ -15,6 +15,7 @@ ghostscript-x
 gstreamer1.0-alsa
 gstreamer1.0-pulseaudio
 kde-cli-tools
+kde-spectacle
 kdesudo
 khelpcenter
 khotkeys
@@ -22,7 +23,6 @@ kinfocenter
 kio
 kio-extras
 kmenuedit
-ksnapshot
 ksysguard
 kwin-wayland
 kwin-x11

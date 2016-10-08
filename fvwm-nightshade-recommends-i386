@@ -1,4 +1,3 @@
-ace-of-penguins
 acpi-support
 avahi-daemon
 balsa
@@ -37,7 +36,6 @@ laptop-detect
 libavcodec-extra
 libnss-mdns
 midori
-mplayer
 mypaint
 pcmciautils
 policykit-desktop-privileges
@@ -52,8 +50,10 @@ printer-driver-splix
 pulseaudio-module-bluetooth
 pulseaudio-module-x11
 simple-scan
+smuxi
 synaptic
 system-config-printer
+vlc
 volumeicon-alsa
 xdg-utils
 xfburn
