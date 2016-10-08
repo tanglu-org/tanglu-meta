@@ -71,6 +71,8 @@ Input methods:
 
  * ark
  * dolphin
+ * kde-spectacle
+ * okular
  * (konsole)
  * (gwenview)
  * (kwalletmanager)
@@ -82,8 +84,6 @@ Input methods:
  * (kmail)
  * (kontact)
  * (korganizer)
- * ksnapshot
- * okular
  * (okular-extra-backends)
  * (kate)
  * (print-manager)

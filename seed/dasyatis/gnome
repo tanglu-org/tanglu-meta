@@ -67,7 +67,7 @@ User:
  * gedit
  * (empathy)
  * (telepathy-idle)        # basic IRC support for empathy
- * software-properties-gtk # default GUI sources.list editor / extra drivers
+ * software-properties-gtk # default GUI sources.list editor
  * seahorse
  * (libpam-gnome-keyring)
  * gnome-screenshot
